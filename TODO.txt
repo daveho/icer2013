@@ -1,0 +1,13 @@
+1) filter our dataset by problems so that we only care about assigned exercises
+2) filter out instructors (users 58-81 were students)
+
+* Now we have the unique solutions (or at least we can compute them)
+  - Filter further so that only the final correct solution per student is included
+  - How to present the unique solutions?
+
+* Deltas:
+  - per problem correlations between feature deltas and test deltas
+    > don't worry about how many features are added?  Or look only for a whole package?
+
+* Compilations
+  - what percent compile?

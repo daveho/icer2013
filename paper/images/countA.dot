@@ -1,0 +1,51 @@
+digraph ast {
+n004 [label="method body"];
+n014 [label="int count=0"];
+n015 [label="ForStatement"];
+n016 [label="int i=0"];
+n017 [label="<"];
+n018 [label="i"];
+n019 [label="MethodInvocation"];
+n020 [label="str"];
+n021 [label="length"];
+n022 [label="++"];
+n023 [label="i"];
+n024 [label="{"];
+n025 [label="IfStatement"];
+n026 [label="=="];
+n027 [label="MethodInvocation"];
+n028 [label="str"];
+n029 [label="charAt"];
+n030 [label="i"];
+n031 [label="'a'"];
+n032 [label="{"];
+n034 [label="++"];
+n035 [label="count"];
+n036 [label="ReturnStatement"];
+n037 [label="count"];
+
+n004 -> n014
+n004 -> n015
+n015 -> n016
+n015 -> n017
+n017 -> n018
+n017 -> n019
+n019 -> n020
+n019 -> n021
+n015 -> n022
+n022 -> n023
+n015 -> n024
+n024 -> n025
+n025 -> n026
+n026 -> n027
+n027 -> n028
+n027 -> n029
+n027 -> n030
+n026 -> n031
+n025 -> n032
+n032 -> n034
+n034 -> n035
+n004 -> n036
+n036 -> n037
+
+}

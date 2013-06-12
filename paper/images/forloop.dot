@@ -1,0 +1,94 @@
+digraph ast {
+
+n013 [label="method body"];
+n014 [label="int count=0"];
+# n015 [label="int"];
+# n016 [label="VariableDeclarationFragment"];
+# n017 [label="count"];
+# n018 [label="0"];
+n019 [label="ForStatement"];
+n020 [label="int i=0"];
+# n021 [label="int"];
+# n022 [label="VariableDeclarationFragment"];
+# n023 [label="i"];
+# n024 [label="0"];
+n025 [label="<"];
+n026 [label="i"];
+n027 [label="-"];
+n028 [label="MethodInvocation"];
+n029 [label="str"];
+n030 [label="length"];
+n031 [label="1"];
+n032 [label="++"];
+n033 [label="i"];
+n034 [label="{"];
+n035 [label="IfStatement"];
+n036 [label="&&"];
+n037 [label="=="];
+n038 [label="MethodInvocation"];
+n039 [label="str"];
+n040 [label="charAt"];
+n041 [label="i"];
+n042 [label="'a'"];
+n043 [label="=="];
+n044 [label="MethodInvocation"];
+n045 [label="str"];
+n046 [label="charAt"];
+n047 [label="+"];
+n048 [label="i"];
+n049 [label="1"];
+n050 [label="'b'"];
+n051 [label="{"];
+# n052 [label="ExpressionStatement"];
+n053 [label="++"];
+n054 [label="count"];
+n055 [label="ReturnStatement"];
+n056 [label="count"];
+ 
+n013 -> n014
+# n014 -> n015
+# n014 -> n016
+# n016 -> n017
+# n016 -> n018
+n013 -> n019
+n019 -> n020
+# n020 -> n021
+# n020 -> n022
+# n022 -> n023
+# n022 -> n024
+n019 -> n025
+n025 -> n026
+n025 -> n027
+n027 -> n028
+n028 -> n029
+n028 -> n030
+n027 -> n031
+n019 -> n032
+n032 -> n033
+n019 -> n034
+n034 -> n035
+n035 -> n036
+n036 -> n037
+n037 -> n038
+n038 -> n039
+n038 -> n040
+n038 -> n041
+n037 -> n042
+n036 -> n043
+n043 -> n044
+n044 -> n045
+n044 -> n046
+n044 -> n047
+n047 -> n048
+n047 -> n049
+n043 -> n050
+n035 -> n051
+# n051 -> n052
+# n052 -> n053
+n051 -> n053
+n053 -> n054
+n013 -> n055
+n055 -> n056
+
+
+} 

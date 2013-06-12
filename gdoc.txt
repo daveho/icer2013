@@ -1,0 +1,690 @@
+1	12	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=12
+1	13	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=13
+1	14	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=14
+1	15	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=15
+1	16	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=16
+1	17	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=17
+1	18	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=18
+1	19	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=19
+1	22	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=22
+1	23	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=23
+1	24	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=24
+1	25	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=25
+1	26	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=26
+1	27	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=27
+1	28	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=28
+1	29	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=29
+1	30	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=30
+1	31	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=31
+1	32	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=32
+1	33	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=33
+1	34	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=34
+1	36	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=36
+1	37	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=37
+1	38	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=38
+1	39	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=39
+1	40	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=40
+1	41	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=41
+1	42	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=42
+1	43	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=43
+1	44	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=44
+1	46	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=46
+1	47	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=47
+1	48	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=48
+1	49	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=49
+1	50	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=50
+1	51	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=51
+1	52	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=52
+1	54	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=54
+1	55	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=55
+1	56	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=56
+1	57	INS	https://cs.knox.edu/apapance/analyzer/?u=1&p=57
+3	25	INS	https://cs.knox.edu/apapance/analyzer/?u=3&p=25
+59	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=14
+59	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=15
+59	16	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=16
+59	17		https://cs.knox.edu/apapance/analyzer/?u=59&p=17
+59	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=18
+59	19		https://cs.knox.edu/apapance/analyzer/?u=59&p=19
+59	20		https://cs.knox.edu/apapance/analyzer/?u=59&p=20
+59	22		https://cs.knox.edu/apapance/analyzer/?u=59&p=22
+59	23	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=23
+59	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=26
+59	30	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=30
+59	33	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=33
+59	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=37
+59	38	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=38
+59	39	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=39
+59	41	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=41
+59	42	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=42
+59	43	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=43
+59	44	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=44
+59	45	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=45
+59	46	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=46
+59	48	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=48
+59	49	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=49
+59	50	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=50
+59	51	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=51
+59	52	REQ	https://cs.knox.edu/apapance/analyzer/?u=59&p=52
+59	54		https://cs.knox.edu/apapance/analyzer/?u=59&p=54
+59	55		https://cs.knox.edu/apapance/analyzer/?u=59&p=55
+59	56		https://cs.knox.edu/apapance/analyzer/?u=59&p=56
+60	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=60&p=14
+60	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=60&p=15
+60	16	REQ	https://cs.knox.edu/apapance/analyzer/?u=60&p=16
+60	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=60&p=18
+60	19		https://cs.knox.edu/apapance/analyzer/?u=60&p=19
+60	20		https://cs.knox.edu/apapance/analyzer/?u=60&p=20
+60	22		https://cs.knox.edu/apapance/analyzer/?u=60&p=22
+60	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=60&p=26
+60	29		https://cs.knox.edu/apapance/analyzer/?u=60&p=29
+60	34		https://cs.knox.edu/apapance/analyzer/?u=60&p=34
+60	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=60&p=37
+60	38	REQ	https://cs.knox.edu/apapance/analyzer/?u=60&p=38
+60	39	REQ	https://cs.knox.edu/apapance/analyzer/?u=60&p=39
+60	41	REQ	https://cs.knox.edu/apapance/analyzer/?u=60&p=41
+60	42	REQ	https://cs.knox.edu/apapance/analyzer/?u=60&p=42
+60	43	REQ	https://cs.knox.edu/apapance/analyzer/?u=60&p=43
+60	44	REQ	https://cs.knox.edu/apapance/analyzer/?u=60&p=44
+60	45	REQ	https://cs.knox.edu/apapance/analyzer/?u=60&p=45
+60	46	REQ	https://cs.knox.edu/apapance/analyzer/?u=60&p=46
+60	48	REQ	https://cs.knox.edu/apapance/analyzer/?u=60&p=48
+60	49	REQ	https://cs.knox.edu/apapance/analyzer/?u=60&p=49
+60	50	REQ	https://cs.knox.edu/apapance/analyzer/?u=60&p=50
+60	51	REQ	https://cs.knox.edu/apapance/analyzer/?u=60&p=51
+60	52	REQ	https://cs.knox.edu/apapance/analyzer/?u=60&p=52
+60	55		https://cs.knox.edu/apapance/analyzer/?u=60&p=55
+60	56		https://cs.knox.edu/apapance/analyzer/?u=60&p=56
+61	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=61&p=14
+61	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=61&p=15
+61	16	REQ	https://cs.knox.edu/apapance/analyzer/?u=61&p=16
+61	17		https://cs.knox.edu/apapance/analyzer/?u=61&p=17
+61	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=61&p=18
+61	19		https://cs.knox.edu/apapance/analyzer/?u=61&p=19
+61	23	REQ	https://cs.knox.edu/apapance/analyzer/?u=61&p=23
+61	24	REQ	https://cs.knox.edu/apapance/analyzer/?u=61&p=24
+61	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=61&p=26
+61	33	REQ	https://cs.knox.edu/apapance/analyzer/?u=61&p=33
+61	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=61&p=37
+61	38	REQ	https://cs.knox.edu/apapance/analyzer/?u=61&p=38
+61	39	REQ	https://cs.knox.edu/apapance/analyzer/?u=61&p=39
+61	41	REQ	https://cs.knox.edu/apapance/analyzer/?u=61&p=41
+61	42	REQ	https://cs.knox.edu/apapance/analyzer/?u=61&p=42
+61	43	REQ	https://cs.knox.edu/apapance/analyzer/?u=61&p=43
+61	45	REQ	https://cs.knox.edu/apapance/analyzer/?u=61&p=45
+62	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=14
+62	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=15
+62	16	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=16
+62	17		https://cs.knox.edu/apapance/analyzer/?u=62&p=17
+62	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=18
+62	19		https://cs.knox.edu/apapance/analyzer/?u=62&p=19
+62	20		https://cs.knox.edu/apapance/analyzer/?u=62&p=20
+62	22		https://cs.knox.edu/apapance/analyzer/?u=62&p=22
+62	23	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=23
+62	24	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=24
+62	25	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=25
+62	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=26
+62	28	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=28
+62	29		https://cs.knox.edu/apapance/analyzer/?u=62&p=29
+62	30	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=30
+62	31	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=31
+62	32	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=32
+62	33	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=33
+62	36		https://cs.knox.edu/apapance/analyzer/?u=62&p=36
+62	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=37
+62	38	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=38
+62	39	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=39
+62	40	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=40
+62	41	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=41
+62	42	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=42
+62	43	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=43
+62	44	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=44
+62	45	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=45
+62	46	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=46
+62	48	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=48
+62	49	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=49
+62	50	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=50
+62	51	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=51
+62	52	REQ	https://cs.knox.edu/apapance/analyzer/?u=62&p=52
+62	54		https://cs.knox.edu/apapance/analyzer/?u=62&p=54
+62	55		https://cs.knox.edu/apapance/analyzer/?u=62&p=55
+62	56		https://cs.knox.edu/apapance/analyzer/?u=62&p=56
+63	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=14
+63	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=15
+63	16	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=16
+63	17		https://cs.knox.edu/apapance/analyzer/?u=63&p=17
+63	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=18
+63	19		https://cs.knox.edu/apapance/analyzer/?u=63&p=19
+63	20		https://cs.knox.edu/apapance/analyzer/?u=63&p=20
+63	22		https://cs.knox.edu/apapance/analyzer/?u=63&p=22
+63	23	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=23
+63	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=26
+63	28	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=28
+63	29		https://cs.knox.edu/apapance/analyzer/?u=63&p=29
+63	30	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=30
+63	31	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=31
+63	32	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=32
+63	33	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=33
+63	34		https://cs.knox.edu/apapance/analyzer/?u=63&p=34
+63	36		https://cs.knox.edu/apapance/analyzer/?u=63&p=36
+63	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=37
+63	38	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=38
+63	39	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=39
+63	41	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=41
+63	42	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=42
+63	43	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=43
+63	44	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=44
+63	45	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=45
+63	46	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=46
+63	48	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=48
+63	49	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=49
+63	50	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=50
+63	51	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=51
+63	52	REQ	https://cs.knox.edu/apapance/analyzer/?u=63&p=52
+63	54		https://cs.knox.edu/apapance/analyzer/?u=63&p=54
+63	55		https://cs.knox.edu/apapance/analyzer/?u=63&p=55
+63	56		https://cs.knox.edu/apapance/analyzer/?u=63&p=56
+64	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=14
+64	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=15
+64	16	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=16
+64	17		https://cs.knox.edu/apapance/analyzer/?u=64&p=17
+64	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=18
+64	19		https://cs.knox.edu/apapance/analyzer/?u=64&p=19
+64	22		https://cs.knox.edu/apapance/analyzer/?u=64&p=22
+64	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=26
+64	28	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=28
+64	29		https://cs.knox.edu/apapance/analyzer/?u=64&p=29
+64	30	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=30
+64	31	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=31
+64	32	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=32
+64	33	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=33
+64	34		https://cs.knox.edu/apapance/analyzer/?u=64&p=34
+64	36		https://cs.knox.edu/apapance/analyzer/?u=64&p=36
+64	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=37
+64	38	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=38
+64	39	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=39
+64	41	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=41
+64	42	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=42
+64	43	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=43
+64	44	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=44
+64	45	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=45
+64	46	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=46
+64	48	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=48
+64	49	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=49
+64	50	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=50
+64	51	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=51
+64	52	REQ	https://cs.knox.edu/apapance/analyzer/?u=64&p=52
+64	54		https://cs.knox.edu/apapance/analyzer/?u=64&p=54
+64	55		https://cs.knox.edu/apapance/analyzer/?u=64&p=55
+64	56		https://cs.knox.edu/apapance/analyzer/?u=64&p=56
+65	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=65&p=14
+65	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=65&p=15
+65	16	REQ	https://cs.knox.edu/apapance/analyzer/?u=65&p=16
+65	17		https://cs.knox.edu/apapance/analyzer/?u=65&p=17
+65	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=65&p=18
+65	19		https://cs.knox.edu/apapance/analyzer/?u=65&p=19
+65	23	REQ	https://cs.knox.edu/apapance/analyzer/?u=65&p=23
+65	24	REQ	https://cs.knox.edu/apapance/analyzer/?u=65&p=24
+65	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=65&p=26
+65	28	REQ	https://cs.knox.edu/apapance/analyzer/?u=65&p=28
+65	31	REQ	https://cs.knox.edu/apapance/analyzer/?u=65&p=31
+65	32	REQ	https://cs.knox.edu/apapance/analyzer/?u=65&p=32
+65	33	REQ	https://cs.knox.edu/apapance/analyzer/?u=65&p=33
+65	36		https://cs.knox.edu/apapance/analyzer/?u=65&p=36
+65	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=65&p=37
+65	38	REQ	https://cs.knox.edu/apapance/analyzer/?u=65&p=38
+65	39	REQ	https://cs.knox.edu/apapance/analyzer/?u=65&p=39
+65	41	REQ	https://cs.knox.edu/apapance/analyzer/?u=65&p=41
+65	42	REQ	https://cs.knox.edu/apapance/analyzer/?u=65&p=42
+65	43	REQ	https://cs.knox.edu/apapance/analyzer/?u=65&p=43
+65	44	REQ	https://cs.knox.edu/apapance/analyzer/?u=65&p=44
+65	45	REQ	https://cs.knox.edu/apapance/analyzer/?u=65&p=45
+66	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=14
+66	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=15
+66	16	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=16
+66	17		https://cs.knox.edu/apapance/analyzer/?u=66&p=17
+66	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=18
+66	19		https://cs.knox.edu/apapance/analyzer/?u=66&p=19
+66	20		https://cs.knox.edu/apapance/analyzer/?u=66&p=20
+66	22		https://cs.knox.edu/apapance/analyzer/?u=66&p=22
+66	23	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=23
+66	24	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=24
+66	25	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=25
+66	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=26
+66	28	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=28
+66	29		https://cs.knox.edu/apapance/analyzer/?u=66&p=29
+66	30	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=30
+66	31	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=31
+66	32	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=32
+66	33	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=33
+66	36		https://cs.knox.edu/apapance/analyzer/?u=66&p=36
+66	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=37
+66	38	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=38
+66	39	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=39
+66	40	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=40
+66	41	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=41
+66	42	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=42
+66	43	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=43
+66	44	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=44
+66	45	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=45
+66	46	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=46
+66	48	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=48
+66	49	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=49
+66	50	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=50
+66	51	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=51
+66	52	REQ	https://cs.knox.edu/apapance/analyzer/?u=66&p=52
+66	54		https://cs.knox.edu/apapance/analyzer/?u=66&p=54
+66	55		https://cs.knox.edu/apapance/analyzer/?u=66&p=55
+66	56		https://cs.knox.edu/apapance/analyzer/?u=66&p=56
+67	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=14
+67	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=15
+67	16	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=16
+67	17		https://cs.knox.edu/apapance/analyzer/?u=67&p=17
+67	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=18
+67	19		https://cs.knox.edu/apapance/analyzer/?u=67&p=19
+67	22		https://cs.knox.edu/apapance/analyzer/?u=67&p=22
+67	23	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=23
+67	24	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=24
+67	25	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=25
+67	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=26
+67	33	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=33
+67	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=37
+67	38	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=38
+67	39	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=39
+67	41	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=41
+67	42	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=42
+67	43	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=43
+67	44	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=44
+67	45	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=45
+67	46	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=46
+67	48	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=48
+67	49	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=49
+67	50	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=50
+67	51	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=51
+67	52	REQ	https://cs.knox.edu/apapance/analyzer/?u=67&p=52
+67	54		https://cs.knox.edu/apapance/analyzer/?u=67&p=54
+67	55		https://cs.knox.edu/apapance/analyzer/?u=67&p=55
+67	56		https://cs.knox.edu/apapance/analyzer/?u=67&p=56
+68	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=68&p=14
+68	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=68&p=15
+68	16	REQ	https://cs.knox.edu/apapance/analyzer/?u=68&p=16
+68	17		https://cs.knox.edu/apapance/analyzer/?u=68&p=17
+68	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=68&p=18
+68	19		https://cs.knox.edu/apapance/analyzer/?u=68&p=19
+68	22		https://cs.knox.edu/apapance/analyzer/?u=68&p=22
+68	23	REQ	https://cs.knox.edu/apapance/analyzer/?u=68&p=23
+68	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=68&p=26
+68	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=68&p=37
+68	41	REQ	https://cs.knox.edu/apapance/analyzer/?u=68&p=41
+68	42	REQ	https://cs.knox.edu/apapance/analyzer/?u=68&p=42
+68	43	REQ	https://cs.knox.edu/apapance/analyzer/?u=68&p=43
+68	44	REQ	https://cs.knox.edu/apapance/analyzer/?u=68&p=44
+68	45	REQ	https://cs.knox.edu/apapance/analyzer/?u=68&p=45
+68	46	REQ	https://cs.knox.edu/apapance/analyzer/?u=68&p=46
+68	48	REQ	https://cs.knox.edu/apapance/analyzer/?u=68&p=48
+68	49	REQ	https://cs.knox.edu/apapance/analyzer/?u=68&p=49
+68	50	REQ	https://cs.knox.edu/apapance/analyzer/?u=68&p=50
+68	51	REQ	https://cs.knox.edu/apapance/analyzer/?u=68&p=51
+68	52	REQ	https://cs.knox.edu/apapance/analyzer/?u=68&p=52
+68	54		https://cs.knox.edu/apapance/analyzer/?u=68&p=54
+68	55		https://cs.knox.edu/apapance/analyzer/?u=68&p=55
+68	56		https://cs.knox.edu/apapance/analyzer/?u=68&p=56
+69	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=69&p=14
+69	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=69&p=15
+69	17		https://cs.knox.edu/apapance/analyzer/?u=69&p=17
+69	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=69&p=18
+69	19		https://cs.knox.edu/apapance/analyzer/?u=69&p=19
+69	22		https://cs.knox.edu/apapance/analyzer/?u=69&p=22
+69	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=69&p=26
+69	28	REQ	https://cs.knox.edu/apapance/analyzer/?u=69&p=28
+69	29		https://cs.knox.edu/apapance/analyzer/?u=69&p=29
+69	31	REQ	https://cs.knox.edu/apapance/analyzer/?u=69&p=31
+69	32	REQ	https://cs.knox.edu/apapance/analyzer/?u=69&p=32
+69	33	REQ	https://cs.knox.edu/apapance/analyzer/?u=69&p=33
+69	34		https://cs.knox.edu/apapance/analyzer/?u=69&p=34
+69	36		https://cs.knox.edu/apapance/analyzer/?u=69&p=36
+69	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=69&p=37
+69	42	REQ	https://cs.knox.edu/apapance/analyzer/?u=69&p=42
+69	45	REQ	https://cs.knox.edu/apapance/analyzer/?u=69&p=45
+69	46	REQ	https://cs.knox.edu/apapance/analyzer/?u=69&p=46
+69	48	REQ	https://cs.knox.edu/apapance/analyzer/?u=69&p=48
+69	49	REQ	https://cs.knox.edu/apapance/analyzer/?u=69&p=49
+69	50	REQ	https://cs.knox.edu/apapance/analyzer/?u=69&p=50
+69	51	REQ	https://cs.knox.edu/apapance/analyzer/?u=69&p=51
+69	52	REQ	https://cs.knox.edu/apapance/analyzer/?u=69&p=52
+70	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=70&p=14
+70	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=70&p=15
+70	16	REQ	https://cs.knox.edu/apapance/analyzer/?u=70&p=16
+70	17		https://cs.knox.edu/apapance/analyzer/?u=70&p=17
+70	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=70&p=18
+70	19		https://cs.knox.edu/apapance/analyzer/?u=70&p=19
+70	23	REQ	https://cs.knox.edu/apapance/analyzer/?u=70&p=23
+70	24	REQ	https://cs.knox.edu/apapance/analyzer/?u=70&p=24
+70	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=70&p=26
+70	28	REQ	https://cs.knox.edu/apapance/analyzer/?u=70&p=28
+70	31	REQ	https://cs.knox.edu/apapance/analyzer/?u=70&p=31
+70	32	REQ	https://cs.knox.edu/apapance/analyzer/?u=70&p=32
+70	33	REQ	https://cs.knox.edu/apapance/analyzer/?u=70&p=33
+70	36		https://cs.knox.edu/apapance/analyzer/?u=70&p=36
+70	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=70&p=37
+70	38	REQ	https://cs.knox.edu/apapance/analyzer/?u=70&p=38
+70	39	REQ	https://cs.knox.edu/apapance/analyzer/?u=70&p=39
+70	41	REQ	https://cs.knox.edu/apapance/analyzer/?u=70&p=41
+71	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=14
+71	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=15
+71	16	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=16
+71	17		https://cs.knox.edu/apapance/analyzer/?u=71&p=17
+71	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=18
+71	19		https://cs.knox.edu/apapance/analyzer/?u=71&p=19
+71	23	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=23
+71	24	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=24
+71	25	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=25
+71	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=26
+71	28	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=28
+71	33	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=33
+71	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=37
+71	38	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=38
+71	39	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=39
+71	41	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=41
+71	42	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=42
+71	43	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=43
+71	44	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=44
+71	45	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=45
+71	46	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=46
+71	48	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=48
+71	49	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=49
+71	50	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=50
+71	51	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=51
+71	52	REQ	https://cs.knox.edu/apapance/analyzer/?u=71&p=52
+71	54		https://cs.knox.edu/apapance/analyzer/?u=71&p=54
+71	55		https://cs.knox.edu/apapance/analyzer/?u=71&p=55
+71	56		https://cs.knox.edu/apapance/analyzer/?u=71&p=56
+72	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=14
+72	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=15
+72	16	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=16
+72	17		https://cs.knox.edu/apapance/analyzer/?u=72&p=17
+72	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=18
+72	19		https://cs.knox.edu/apapance/analyzer/?u=72&p=19
+72	20		https://cs.knox.edu/apapance/analyzer/?u=72&p=20
+72	22		https://cs.knox.edu/apapance/analyzer/?u=72&p=22
+72	23	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=23
+72	24	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=24
+72	25	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=25
+72	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=26
+72	28	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=28
+72	29		https://cs.knox.edu/apapance/analyzer/?u=72&p=29
+72	30	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=30
+72	31	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=31
+72	32	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=32
+72	33	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=33
+72	34		https://cs.knox.edu/apapance/analyzer/?u=72&p=34
+72	36		https://cs.knox.edu/apapance/analyzer/?u=72&p=36
+72	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=37
+72	38	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=38
+72	39	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=39
+72	40	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=40
+72	41	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=41
+72	42	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=42
+72	43	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=43
+72	44	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=44
+72	45	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=45
+72	46	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=46
+72	48	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=48
+72	49	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=49
+72	50	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=50
+72	51	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=51
+72	52	REQ	https://cs.knox.edu/apapance/analyzer/?u=72&p=52
+72	54		https://cs.knox.edu/apapance/analyzer/?u=72&p=54
+72	55		https://cs.knox.edu/apapance/analyzer/?u=72&p=55
+72	56		https://cs.knox.edu/apapance/analyzer/?u=72&p=56
+73	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=73&p=14
+73	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=73&p=15
+73	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=73&p=18
+73	20		https://cs.knox.edu/apapance/analyzer/?u=73&p=20
+73	22		https://cs.knox.edu/apapance/analyzer/?u=73&p=22
+73	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=73&p=26
+73	28	REQ	https://cs.knox.edu/apapance/analyzer/?u=73&p=28
+73	31	REQ	https://cs.knox.edu/apapance/analyzer/?u=73&p=31
+73	32	REQ	https://cs.knox.edu/apapance/analyzer/?u=73&p=32
+73	36		https://cs.knox.edu/apapance/analyzer/?u=73&p=36
+73	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=73&p=37
+73	43	REQ	https://cs.knox.edu/apapance/analyzer/?u=73&p=43
+73	48	REQ	https://cs.knox.edu/apapance/analyzer/?u=73&p=48
+74	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=74&p=14
+74	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=74&p=15
+74	16	REQ	https://cs.knox.edu/apapance/analyzer/?u=74&p=16
+74	17		https://cs.knox.edu/apapance/analyzer/?u=74&p=17
+74	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=74&p=18
+74	19		https://cs.knox.edu/apapance/analyzer/?u=74&p=19
+74	23	REQ	https://cs.knox.edu/apapance/analyzer/?u=74&p=23
+74	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=74&p=26
+74	28	REQ	https://cs.knox.edu/apapance/analyzer/?u=74&p=28
+74	31	REQ	https://cs.knox.edu/apapance/analyzer/?u=74&p=31
+74	32	REQ	https://cs.knox.edu/apapance/analyzer/?u=74&p=32
+74	33	REQ	https://cs.knox.edu/apapance/analyzer/?u=74&p=33
+74	36		https://cs.knox.edu/apapance/analyzer/?u=74&p=36
+74	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=74&p=37
+74	38	REQ	https://cs.knox.edu/apapance/analyzer/?u=74&p=38
+74	39	REQ	https://cs.knox.edu/apapance/analyzer/?u=74&p=39
+74	41	REQ	https://cs.knox.edu/apapance/analyzer/?u=74&p=41
+74	42	REQ	https://cs.knox.edu/apapance/analyzer/?u=74&p=42
+74	43	REQ	https://cs.knox.edu/apapance/analyzer/?u=74&p=43
+74	45	REQ	https://cs.knox.edu/apapance/analyzer/?u=74&p=45
+74	46	REQ	https://cs.knox.edu/apapance/analyzer/?u=74&p=46
+74	48	REQ	https://cs.knox.edu/apapance/analyzer/?u=74&p=48
+75	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=14
+75	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=15
+75	16	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=16
+75	17		https://cs.knox.edu/apapance/analyzer/?u=75&p=17
+75	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=18
+75	19		https://cs.knox.edu/apapance/analyzer/?u=75&p=19
+75	20		https://cs.knox.edu/apapance/analyzer/?u=75&p=20
+75	22		https://cs.knox.edu/apapance/analyzer/?u=75&p=22
+75	23	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=23
+75	24	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=24
+75	25	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=25
+75	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=26
+75	28	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=28
+75	29		https://cs.knox.edu/apapance/analyzer/?u=75&p=29
+75	30	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=30
+75	31	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=31
+75	32	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=32
+75	33	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=33
+75	36		https://cs.knox.edu/apapance/analyzer/?u=75&p=36
+75	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=37
+75	38	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=38
+75	39	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=39
+75	40	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=40
+75	41	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=41
+75	42	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=42
+75	43	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=43
+75	44	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=44
+75	45	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=45
+75	46	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=46
+75	48	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=48
+75	49	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=49
+75	50	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=50
+75	51	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=51
+75	52	REQ	https://cs.knox.edu/apapance/analyzer/?u=75&p=52
+75	54		https://cs.knox.edu/apapance/analyzer/?u=75&p=54
+75	55		https://cs.knox.edu/apapance/analyzer/?u=75&p=55
+75	56		https://cs.knox.edu/apapance/analyzer/?u=75&p=56
+76	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=14
+76	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=15
+76	16	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=16
+76	17		https://cs.knox.edu/apapance/analyzer/?u=76&p=17
+76	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=18
+76	19		https://cs.knox.edu/apapance/analyzer/?u=76&p=19
+76	23	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=23
+76	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=26
+76	30	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=30
+76	33	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=33
+76	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=37
+76	38	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=38
+76	39	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=39
+76	41	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=41
+76	42	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=42
+76	43	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=43
+76	44	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=44
+76	45	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=45
+76	46	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=46
+76	48	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=48
+76	49	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=49
+76	50	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=50
+76	51	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=51
+76	52	REQ	https://cs.knox.edu/apapance/analyzer/?u=76&p=52
+76	54		https://cs.knox.edu/apapance/analyzer/?u=76&p=54
+76	55		https://cs.knox.edu/apapance/analyzer/?u=76&p=55
+76	56		https://cs.knox.edu/apapance/analyzer/?u=76&p=56
+77	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=14
+77	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=15
+77	16	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=16
+77	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=18
+77	19		https://cs.knox.edu/apapance/analyzer/?u=77&p=19
+77	20		https://cs.knox.edu/apapance/analyzer/?u=77&p=20
+77	22		https://cs.knox.edu/apapance/analyzer/?u=77&p=22
+77	23	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=23
+77	24	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=24
+77	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=26
+77	28	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=28
+77	29		https://cs.knox.edu/apapance/analyzer/?u=77&p=29
+77	30	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=30
+77	31	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=31
+77	32	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=32
+77	36		https://cs.knox.edu/apapance/analyzer/?u=77&p=36
+77	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=37
+77	38	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=38
+77	39	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=39
+77	41	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=41
+77	42	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=42
+77	43	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=43
+77	44	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=44
+77	45	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=45
+77	46	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=46
+77	48	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=48
+77	49	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=49
+77	50	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=50
+77	51	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=51
+77	52	REQ	https://cs.knox.edu/apapance/analyzer/?u=77&p=52
+77	54		https://cs.knox.edu/apapance/analyzer/?u=77&p=54
+77	55		https://cs.knox.edu/apapance/analyzer/?u=77&p=55
+77	56		https://cs.knox.edu/apapance/analyzer/?u=77&p=56
+78	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=14
+78	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=15
+78	16	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=16
+78	17		https://cs.knox.edu/apapance/analyzer/?u=78&p=17
+78	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=18
+78	19		https://cs.knox.edu/apapance/analyzer/?u=78&p=19
+78	20		https://cs.knox.edu/apapance/analyzer/?u=78&p=20
+78	22		https://cs.knox.edu/apapance/analyzer/?u=78&p=22
+78	23	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=23
+78	24	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=24
+78	25	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=25
+78	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=26
+78	28	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=28
+78	29		https://cs.knox.edu/apapance/analyzer/?u=78&p=29
+78	30	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=30
+78	31	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=31
+78	32	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=32
+78	33	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=33
+78	34		https://cs.knox.edu/apapance/analyzer/?u=78&p=34
+78	36		https://cs.knox.edu/apapance/analyzer/?u=78&p=36
+78	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=37
+78	38	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=38
+78	39	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=39
+78	40	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=40
+78	41	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=41
+78	42	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=42
+78	43	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=43
+78	44	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=44
+78	45	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=45
+78	46	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=46
+78	48	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=48
+78	49	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=49
+78	50	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=50
+78	51	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=51
+78	52	REQ	https://cs.knox.edu/apapance/analyzer/?u=78&p=52
+78	54		https://cs.knox.edu/apapance/analyzer/?u=78&p=54
+78	55		https://cs.knox.edu/apapance/analyzer/?u=78&p=55
+78	56		https://cs.knox.edu/apapance/analyzer/?u=78&p=56
+79	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=14
+79	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=15
+79	16	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=16
+79	17		https://cs.knox.edu/apapance/analyzer/?u=79&p=17
+79	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=18
+79	19		https://cs.knox.edu/apapance/analyzer/?u=79&p=19
+79	20		https://cs.knox.edu/apapance/analyzer/?u=79&p=20
+79	22		https://cs.knox.edu/apapance/analyzer/?u=79&p=22
+79	23	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=23
+79	24	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=24
+79	25	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=25
+79	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=26
+79	28	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=28
+79	29		https://cs.knox.edu/apapance/analyzer/?u=79&p=29
+79	30	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=30
+79	31	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=31
+79	32	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=32
+79	33	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=33
+79	34		https://cs.knox.edu/apapance/analyzer/?u=79&p=34
+79	36		https://cs.knox.edu/apapance/analyzer/?u=79&p=36
+79	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=37
+79	38	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=38
+79	39	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=39
+79	40	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=40
+79	41	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=41
+79	42	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=42
+79	43	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=43
+79	44	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=44
+79	45	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=45
+79	46	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=46
+79	48	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=48
+79	49	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=49
+79	50	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=50
+79	51	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=51
+79	52	REQ	https://cs.knox.edu/apapance/analyzer/?u=79&p=52
+79	54		https://cs.knox.edu/apapance/analyzer/?u=79&p=54
+79	55		https://cs.knox.edu/apapance/analyzer/?u=79&p=55
+79	56		https://cs.knox.edu/apapance/analyzer/?u=79&p=56
+80	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=80&p=14
+80	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=80&p=15
+80	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=80&p=18
+80	20		https://cs.knox.edu/apapance/analyzer/?u=80&p=20
+80	22		https://cs.knox.edu/apapance/analyzer/?u=80&p=22
+80	28	REQ	https://cs.knox.edu/apapance/analyzer/?u=80&p=28
+80	31	REQ	https://cs.knox.edu/apapance/analyzer/?u=80&p=31
+80	36		https://cs.knox.edu/apapance/analyzer/?u=80&p=36
+80	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=80&p=37
+80	40	REQ	https://cs.knox.edu/apapance/analyzer/?u=80&p=40
+80	41	REQ	https://cs.knox.edu/apapance/analyzer/?u=80&p=41
+80	42	REQ	https://cs.knox.edu/apapance/analyzer/?u=80&p=42
+80	43	REQ	https://cs.knox.edu/apapance/analyzer/?u=80&p=43
+80	44	REQ	https://cs.knox.edu/apapance/analyzer/?u=80&p=44
+80	45	REQ	https://cs.knox.edu/apapance/analyzer/?u=80&p=45
+80	46	REQ	https://cs.knox.edu/apapance/analyzer/?u=80&p=46
+80	51	REQ	https://cs.knox.edu/apapance/analyzer/?u=80&p=51
+80	54		https://cs.knox.edu/apapance/analyzer/?u=80&p=54
+80	55		https://cs.knox.edu/apapance/analyzer/?u=80&p=55
+80	56		https://cs.knox.edu/apapance/analyzer/?u=80&p=56
+81	14	REQ	https://cs.knox.edu/apapance/analyzer/?u=81&p=14
+81	15	REQ	https://cs.knox.edu/apapance/analyzer/?u=81&p=15
+81	16	REQ	https://cs.knox.edu/apapance/analyzer/?u=81&p=16
+81	17		https://cs.knox.edu/apapance/analyzer/?u=81&p=17
+81	18	REQ	https://cs.knox.edu/apapance/analyzer/?u=81&p=18
+81	19		https://cs.knox.edu/apapance/analyzer/?u=81&p=19
+81	26	REQ	https://cs.knox.edu/apapance/analyzer/?u=81&p=26
+81	33	REQ	https://cs.knox.edu/apapance/analyzer/?u=81&p=33
+81	37	REQ	https://cs.knox.edu/apapance/analyzer/?u=81&p=37
+81	38	REQ	https://cs.knox.edu/apapance/analyzer/?u=81&p=38
+81	39	REQ	https://cs.knox.edu/apapance/analyzer/?u=81&p=39
+81	42	REQ	https://cs.knox.edu/apapance/analyzer/?u=81&p=42
+81	44	REQ	https://cs.knox.edu/apapance/analyzer/?u=81&p=44
+81	45	REQ	https://cs.knox.edu/apapance/analyzer/?u=81&p=45
+81	46	REQ	https://cs.knox.edu/apapance/analyzer/?u=81&p=46
+81	48	REQ	https://cs.knox.edu/apapance/analyzer/?u=81&p=48
+81	49	REQ	https://cs.knox.edu/apapance/analyzer/?u=81&p=49
+81	50	REQ	https://cs.knox.edu/apapance/analyzer/?u=81&p=50
+81	51	REQ	https://cs.knox.edu/apapance/analyzer/?u=81&p=51
+81	52	REQ	https://cs.knox.edu/apapance/analyzer/?u=81&p=52
+81	54		https://cs.knox.edu/apapance/analyzer/?u=81&p=54
+82	10		https://cs.knox.edu/apapance/analyzer/?u=82&p=10
+82	11		https://cs.knox.edu/apapance/analyzer/?u=82&p=11
