@@ -6,6 +6,9 @@
 \renewcommand{\textfraction}{0.1}
 \renewcommand{\floatpagefraction}{0.84}
 
+\newenvironment{denseItemize}{%
+\begin{list}{$\bullet$}{\setlength{\itemsep}{0in}\setlength{\parsep}{0in}\leftmargin=1em\labelwidth=1em}}{\end{list}}
+
 \begin{document}
 %
 % --- Author Metadata here ---
@@ -466,8 +469,27 @@ being able to use a previously-written exercise represents a significant
 time savings.  However, finding an existing exercise that is {\em appropriate}
 is not necessarily a trivial task.  We are interested in finding
 out whether exercises written in the context of one course can be reused
-effectively in another.
+effectively in another.  There are many interesting aspects of
+this question:
 
+\begin{denseItemize}
+\item How can we help instructors search for appropriate exercises?
+\item How can we classify exercises?
+\item Can we allow CloudCoder users to {\em improve} existing exercises?
+\end{denseItemize}
+
+{\bf What guidance can we provide to instructors on which exercises to assign,
+and in what order?}  This question is an expanded form of the previous question:
+if a large repository of pre-written exercises is available,
+could we offer instructors sequences of exercises on a particular topic?
+
+{\bf How can programming exercises be integrated most effectively into a course?}
+Programming exercises can be used for many purposes: self-test questions
+to accompany readings and video lectures, in-class assessment (possibly
+in the context of peer instruction), extra practice for students who
+are struggling.  We would like to have specific, evidence-based recommendations
+that we can give to instructors who are considering using programming
+exercises in their courses.
 
 \section{Related Work}
 
