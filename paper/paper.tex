@@ -114,77 +114,106 @@ Codingbat \cite{codingbat}, Coursera \cite{coursera}, Turingscraft
 \cite{turingscraft}, Problets \cite{Kumar:2005:GPA:1163405.1163408}, CS Circles \cite{Pritchard:2013:CCI:2445196.2445370} and
 several others.  These systems are very powerful, and show great promise to
 improve introductory computer science.  Given all of these
-very good systems, one may ask why we thought it a good career move
-to build yet another system.  There are three main reasons:
+very good systems, one may ask why we thought
+%it a good career move
+%to build yet another system.
+the world needed another such system.
 
-%\begin{itemize}
+%There are three main reasons:
+%
+%%\begin{itemize}
+%
+%%\item 
+%First, we wanted a system that an instructor can easily integrate into an existing traditional course.
+%  Many massive open online courses (MOOCs), such those available through Udacity and
+%  Coursera, were not designed for a traditional classroom and cannot be easily incorporated into an existing course.  
+%  The infrastructure provided by a MOOC is geared towards the course
+%  taught through the MOOC, and is not really configurable or customizable.
+%
+% % systems, such as Udacity, Coursera, and CodeAcademy, are
+% %  massive open online courses (MOOCs) that cannot be easily
+% %  incorporated into a traditional classroom setting.  MOOCs can be wonderfully
+% %  enriching for students who take these courses.  However, because
+% %  MOOCs offer an entire
+% %  course, whatever online programming infrastructure they provide is part of that
+% %  course.
+%
+%%\item 
+%Second, we wanted an open, customizable system that focuses on short programming exercises that students
+%  can solve in their browser, and receive immediate feedback.  There are excellent systems that help
+%  faculty manage longer programming assignments
+%  \cite{Edwards:2008:WAG:1384271.1384371}, or homework and review questions
+%  \cite{turingscraft, Kumar:2005:GPA:1163405.1163408}.  Codingbat
+%  \cite{codingbat} is a fantastic free service that provides short
+%  programming exercises, but it is not easily customizable and does not provide
+%  access to all of the submissions submitted by students.
+%  We see CloudCoder as a complementary component to these resources.
+%
+%% Some existing systems, such as Problets \cite{Kumar:2005:GPA:1163405.1163408},  and Turingscraft
+%%   \cite{turingscraft}, provide homework exercises that can be incorporated
+%%   such as Codingbat \cite{codingbat},
+%%  , can be integrated into an existing course.
+%%   Codingbat, while free to use and fantastically useful, does not give faculty access to a very
+%%   rich data set
+%
+%%\item
+%Finally, we wanted exercises that could be freely modified and
+%redistributed.  Much of the excellent content available through MOOCs,
+%or the increasing amount of digital content available through textbook publishers, 
+%cannot be modified or re-used outside of those contexts.  This can be a significant
+%impediment to researchers trying to study the difficulty level of
+%various exercises, or to build intelligent tutoring systems (ITSs)
+%that require a large bank of questions and their solutions.
+%
+%%\end{itemize}
+%
+%% There are two reasons.  First, many of
+%% these systems, such are Udacity, Coursera, and CodeAcademy, are
+%% massive open online courses (MOOCs).  MOOCs typically provide
+%% supporting infrastructure that helps students learn to code in their
+%% browsers, and the course material offered by a MOOC can be a wonderfully enriching
+%% experience for someone who enrolls in the course.  However, it is not
+%% clear how faculty who teach more traditional courses can
+%% integrate any of the infrastructure provided by a MOOC into
+%% their curriculum.  Second, 
+%% the systems that could be easily integrated into an existing course, such as
+%% Codingbat or Turingscraft, are
+%% are either commercial, or closed, or both.  To our knowledge, none of
+%% these systems readily support faculty who want to 
+%% modify the code, host their own installation, extract data about
+%% student behaviors beyond the basic correctness of their submissions,
+%% or redistribute the programming exercises and assignments.
+%
+%We believe the academic community should have a fully open alternative
+%to the closed and/or commercial systems that have exploded onto the CS
+%Education scene.  Faculty can integrate CloudCoder into an existing course with minimal overhead,
+%can write their own content, use and modify content contributed by
+%others, customize the system, and collect data for educational studies.
 
-%\item 
-First, we wanted a system that an instructor can easily integrate into an existing traditional course.
-  Many massive open online courses (MOOCs), such those available through Udacity and
-  Coursera, were not designed for a traditional classroom and cannot be easily incorporated into an existing course.  
-  The infrastructure provided by a MOOC is geared towards the course
-  taught through the MOOC, and is not really configurable or customizable.
+Our primary motivation was {\em freedom}: we wanted a system where
+the software and exercises could be freely redistributed, and
+were not under the control of any central authority.  This motivation
+is not entirely philosophical: we felt that locking down either
+the software or the exercises would result in a barrier to adoption,
+limiting the potential impact of the system.
+As we will discuss in Section~\ref{sec:questions}, we think that there
+are some interesting research questions that can be addressed
+best through the existence of a ``free like air'' programming
+exercise system: for example, we are very interested in finding out
+whether exercises can be reused effectively in different courses
+at different institutions.
 
- % systems, such as Udacity, Coursera, and CodeAcademy, are
- %  massive open online courses (MOOCs) that cannot be easily
- %  incorporated into a traditional classroom setting.  MOOCs can be wonderfully
- %  enriching for students who take these courses.  However, because
- %  MOOCs offer an entire
- %  course, whatever online programming infrastructure they provide is part of that
- %  course.
+Another motivation was a desire to collect data on students' work
+on programming exercises as a way to study how students learn to program.
+For example, CloudCoder captures a fine-grained edit history of each
+student's work on each exercise.  Because the system is open source,
+we (and other researchers) can easily add other kinds of data collection
+to the system.
 
-%\item 
-Second, we wanted an open, customizable system that focuses on short programming exercises that students
-  can solve in their browser, and receive immediate feedback.  There are excellent systems that help
-  faculty manage longer programming assignments
-  \cite{Edwards:2008:WAG:1384271.1384371}, or homework and review questions
-  \cite{turingscraft, Kumar:2005:GPA:1163405.1163408}.  Codingbat
-  \cite{codingbat} is a fantastic free service that provides short
-  programming exercises, but it is not easily customizable and does not provide
-  access to all of the submissions submitted by students.
-  We see CloudCoder as a complementary component to these resources.
+Finally, we wanted a system that supported a wide range of programming
+languages.  For example, relatively few programming exercise systems
+support C and C++.
 
-% Some existing systems, such as Problets \cite{Kumar:2005:GPA:1163405.1163408},  and Turingscraft
-%   \cite{turingscraft}, provide homework exercises that can be incorporated
-%   such as Codingbat \cite{codingbat},
-%  , can be integrated into an existing course.
-%   Codingbat, while free to use and fantastically useful, does not give faculty access to a very
-%   rich data set
-
-%\item
-Finally, we wanted exercises that could be freely modified and
-redistributed.  Much of the excellent content available through MOOCs,
-or the increasing amount of digital content available through textbook publishers, 
-cannot be modified or re-used outside of those contexts.  This can be a significant
-impediment to researchers trying to study the difficulty level of
-various exercises, or to build intelligent tutoring systems (ITSs)
-that require a large bank of questions and their solutions.
-
-%\end{itemize}
-
-% There are two reasons.  First, many of
-% these systems, such are Udacity, Coursera, and CodeAcademy, are
-% massive open online courses (MOOCs).  MOOCs typically provide
-% supporting infrastructure that helps students learn to code in their
-% browsers, and the course material offered by a MOOC can be a wonderfully enriching
-% experience for someone who enrolls in the course.  However, it is not
-% clear how faculty who teach more traditional courses can
-% integrate any of the infrastructure provided by a MOOC into
-% their curriculum.  Second, 
-% the systems that could be easily integrated into an existing course, such as
-% Codingbat or Turingscraft, are
-% are either commercial, or closed, or both.  To our knowledge, none of
-% these systems readily support faculty who want to 
-% modify the code, host their own installation, extract data about
-% student behaviors beyond the basic correctness of their submissions,
-% or redistribute the programming exercises and assignments.
-
-We believe the academic community should have a fully open alternative
-to the closed and/or commercial systems that have exploded onto the CS
-Education scene.  Faculty can integrate CloudCoder into an existing course with minimal overhead,
-can write their own content, use and modify content contributed by
-others, customize the system, and collect data for educational studies.
 
 \section{CloudCoder}
 We have designed CloudCoder to be an open platform for managing short
@@ -430,7 +459,7 @@ once the Spring 2013 semester ends.  Our analysis of these datasets is
 very preliminary at this point, but work is ongoing.
 
 
-\section{Questions}
+\section{Questions}\label{sec:questions}
 
 %We could use community input into the CloudCoder project.  Specifically:
 %
