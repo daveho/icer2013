@@ -6,6 +6,9 @@
 \renewcommand{\textfraction}{0.1}
 \renewcommand{\floatpagefraction}{0.84}
 
+\newenvironment{denseItemize}{%
+\begin{list}{$\bullet$}{\setlength{\itemsep}{0in}\setlength{\parsep}{0in}\leftmargin=1em\labelwidth=1em}}{\end{list}}
+
 \begin{document}
 %
 % --- Author Metadata here ---
@@ -19,37 +22,39 @@
 \numberofauthors{2}
 
 
-% \alignauthor
-% Andrei Papancea\\
-% Jaime Spacco\\
-%        \affaddr{Department of Computer Science}\\
-%        \affaddr{Knox College}\\
-%        \affaddr{Galesburg, IL 61401}\\
-%        \email{\{apapance,jspacco\}@knox.edu}
-% % 2nd. author
-% \alignauthor
-% David Hovemeyer\\
-%        \affaddr{Kinsley Engineering Center}\\
-%        \affaddr{York College of Pennsylvania}\\
-%        \affaddr{York, PA 17403}\\
-%        \email{dhovemey@ycp.edu}
-
 \author{
 \alignauthor
-Author Name\\
-Author Name\\
+Andrei Papancea\\
+Jaime Spacco\\
        \affaddr{Department of Computer Science}\\
-       \affaddr{Small College \#1}\\
-       \affaddr{City, State zipcode}\\
-       \email{\{author1,author2\}@school.edu}
+       \affaddr{Knox College}\\
+       \affaddr{Galesburg, IL 61401}\\
+       \email{\{apapance,jspacco\}@knox.edu}
 % 2nd. author
 \alignauthor
-Author Name\\
-       \affaddr{Computer Science Department}\\
-       \affaddr{Small College \#2}\\
-       \affaddr{City, State zipcode}\\
-       \email{author@school.edu}
+David Hovemeyer\\
+       \affaddr{Department of Physical Sciences}\\
+       \affaddr{York College of Pennsylvania}\\
+       \affaddr{York, PA 17403}\\
+       \email{dhovemey@ycp.edu}
 }
+
+%\author{
+%\alignauthor
+%Author Name\\
+%Author Name\\
+%       \affaddr{Department of Computer Science}\\
+%       \affaddr{Small College \#1}\\
+%       \affaddr{City, State zipcode}\\
+%       \email{\{author1,author2\}@school.edu}
+%% 2nd. author
+%\alignauthor
+%Author Name\\
+%       \affaddr{Computer Science Department}\\
+%       \affaddr{Small College \#2}\\
+%       \affaddr{City, State zipcode}\\
+%       \email{author@school.edu}
+%}
 
 
 %\date{30 July 1999}
@@ -106,7 +111,7 @@ Recent years have seen an explosion of online services for learning
 to program:  Udacity \cite{udacity}, CodeAcademy \cite{codeacademy},
 ProgZoo \cite{progzoo}, 
 Codingbat \cite{codingbat}, Coursera \cite{coursera}, Turingscraft
-\cite{turingscraft}, Problets \cite{Kumar::2005:GPA:1163405.1163408}, CS Circles \cite{Pritchard:2013:CCI:2445196.2445370} and
+\cite{turingscraft}, Problets \cite{Kumar:2005:GPA:1163405.1163408}, CS Circles \cite{Pritchard:2013:CCI:2445196.2445370} and
 several others.  These systems are very powerful, and show great promise to
 improve introductory computer science.  Given all of these
 very good systems, one may ask why we thought it a good career move
@@ -218,6 +223,14 @@ exercises, and to explore ways of curating the collected data.
 %   for educational studies that require studying fine-grained trace data.
 % \end{itemize}
 
+\begin{figure*}
+\centering
+\includegraphics[width=5.5in]{images/screenshot4}
+\caption{Screenshot of the main view in CloudCoder}
+\label{screenshot}
+\end{figure*}
+
+
 \subsection{An Open Platform}
 
 CloudCoder is an open platform for managing short programming
@@ -225,7 +238,7 @@ exercises.  Each exercise can be solved with one method or one short
 program, and could take only a few minutes to solve, or could require
 or an hour or two.  The system is not designed to support longer
 programming assignments, such as those found at the {\em Nifty
-  Assignments} session at SIGCSE.
+Assignments} session at SIGCSE.
 
 Figure~\ref{screenshot} shows a screenshot of a CloudCoder exercise.
 The editor is derived from the Ace editor \cite{ace}, and supports
@@ -236,21 +249,12 @@ test cases, and feedback is provided directly in the browser.
 CloudCoder captures anything the code prints to standard out or
 standard err to help students with debugging.
 
-
-\begin{figure*}[ht]
-\centering
-\includegraphics[width=180mm]{images/screenshot.png}
-\caption{Screenshot of the main view in CloudCoder.}
-\label{screenshot}
-\end{figure*}
-
 CloudCoder is available under the GNU Affero open-source license.
-Binary distributions are available through our website (anonymized),
+Binary distributions are available through our website (\url{http://cloudcoder.org}),
 and the code is available on Github:
 
 \vspace*{3mm} 
-%\url{https://github.com/cloudcoderdotorg/CloudCoder}
-(link anonymized)
+\url{https://github.com/cloudcoderdotorg/CloudCoder}
 \vspace*{3mm}
 
 % The editor window 
@@ -271,8 +275,7 @@ authoring tools, or can import exercises written by other faculty
 from a central repository at:
 
 \vspace*{3mm} 
-% \url{https://cloudcoder.org/repo}
-(link anonymized)
+\url{https://cloudcoder.org/repo}
 \vspace*{3mm} 
 
 Currently we have over 50 Java and 60 C/C++ exercises authored by 5
@@ -406,8 +409,8 @@ the same large course in Fall 2013.
 Institution & Course & Language & Enrollment\\
 \hline
 Canisius College & CS-1 & C/C++ & 30\\
-Small College \#2 & CS-1 & C/C++ & 120\\
-Small College \#1 & CS-1 & Java & 23\\
+York College & CS-1 & C/C++ & 120\\
+Knox College \#1 & CS-1 & Java & 23\\
 University of Auckland & Programming for Engineers & C & 30\\
 \hline
 \end{tabular}
@@ -428,22 +431,65 @@ once the Spring 2013 semester ends.  Our analysis of these datasets is
 very preliminary at this point, but work is ongoing.
 
 
-\section{Discussion}
+\section{Discussion Questions}
 
-We could use community input into the CloudCoder project.  Specifically:
+%We could use community input into the CloudCoder project.  Specifically:
+%
+%\begin{itemize}
+%\item Who would be interested in adopting this system?  If you would
+%  consider trying out the system if we added a particular feature,
+%  what would that feature be?  We would like
+%  to expand our pilot group.
+%\item What studies could or should be done with this platform?  And
+%  would you like to be involved with these studies?
+%\item What studies can be done with the existing data we have
+%  collected?  We do not yet have well-developed tools for data
+%  analysis, but one data set has been anonymized and can be
+%  distributed to other researchers interested in our data.
+%\end{itemize}
 
-\begin{itemize}
-\item Who would be interested in adopting this system?  If you would
-  consider trying out the system if we added a particular feature,
-  what would that feature be?  We would like
-  to expand our pilot group.
-\item What studies could or should be done with this platform?  And
-  would you like to be involved with these studies?
-\item What studies can be done with the existing data we have
-  collected?  We do not yet have well-developed tools for data
-  analysis, but one data set has been anonymized and can be
-  distributed to other researchers interested in our data.
-\end{itemize}
+There are a number of questions, both philosophical and research-oriented,
+that we would like to address in the context of our future work with CloudCoder.
+
+{\bf Can the adoption of programming exercises lead to improved outcomes
+in introductory programming courses?}  This is the most obvious
+question.  One scenario we are particularly interested in is whether
+the use of programming exercises, when {\em added} to an existing course with
+no other changes in pedagogy, lead to improved outcomes.  We feel
+that this scenario is important because educators have limited time
+and resources available to change the way their courses are taught.
+If programming exercises are an easy change to implement, then
+if adopted on a wide scale they could have a significant impact.
+
+{\bf Can exercises be reused effectively outside of the course in which
+they were originally created?}  When assigning a programming exercise to
+students, the instructor can create one from scratch, or use a
+previously-written exercise.  Since creating good exercises is labor-intensive,
+being able to use a previously-written exercise represents a significant
+time savings.  However, finding an existing exercise that is {\em appropriate}
+is not necessarily a trivial task.  We are interested in finding
+out whether exercises written in the context of one course can be reused
+effectively in another.  There are many interesting aspects of
+this question:
+
+\begin{denseItemize}
+\item How can we help instructors search for appropriate exercises?
+\item How can we classify exercises?
+\item Can we allow CloudCoder users to {\em improve} existing exercises?
+\end{denseItemize}
+
+{\bf What guidance can we provide to instructors on which exercises to assign,
+and in what order?}  This question is an expanded form of the previous question:
+if a large repository of pre-written exercises is available,
+could we offer instructors sequences of exercises on a particular topic?
+
+{\bf How can programming exercises be integrated most effectively into a course?}
+Programming exercises can be used for many purposes: self-test questions
+to accompany readings and video lectures, in-class assessment (possibly
+in the context of peer instruction), extra practice for students who
+are struggling.  We would like to have specific, evidence-based recommendations
+that we can give to instructors who are considering using programming
+exercises in their courses.
 
 \section{Related Work}
 
@@ -483,204 +529,204 @@ collection \cite{Utting:2012:WDG:2361276.2361278}.  Their system is
 more ambitious than CloudCoder, but the data collected by CloudCoder
 should be complementary.
 
-
-\section{Future Work: Towards an Intelligent Tutoring System}
-
-One of the long-term goals for CloudCoder is to use the data to
-develop an Intelligent Tutoring System for programming assignments.
-A web-based programming ITS could be used to support high school
-AP courses in school districts that may lack computer science
-teachers, or to help improve introductory CS courses by reducing
-student frustration.
-
-To develop an ITS, we need a large supply of exercises; we hope
-CloudCoder's permissible licensing will help on this front.  We also
-need to provide students with ``hints'' when they are stuck.  To
-provide hints, we can either write the hints ourselves, which is
-labor-intensive, or generate them automatically by mining them out of
-the dataset of prior submissions.  Obviously this second approach is
-a much preferred method of creating hints.  However, identifying hints
-automatically means that we need to match a student's current program
-state with the most similar program state we've seen previously, 
-figure out what successful next step the previous student took, and
-then summarize this information into a hint.  This is a very
-challenging problem.
-
-There are currently two promising lines of research
-trying to address the issue of identifying the most similar previous submissions.  Rivers and Koedinger \cite{rivers-its2012} have developed a
-system that computes a {\em canonicalized} version of each submission
-by compiling to an Abstract Syntax Tree (AST) and then applying a
-series of compiler transformations.  This work is ongoing, but
-preliminary results are encouraging.
-On the other hand, Jin et. al. \cite{Jin:2012:PRA:2345840.2345889, jin-kdd2011} perform
-an inter-procedural data flow analysis that tracks the values stored
-in different variables in an effort to identify variables that are
-used in the same way in each submission.  They also show promising preliminary
-results for their approach.
-
-\subsection{Key Features:  Mining Hints from the AST}
-
-Our approach, which is very preliminary, ongoing research,  is also based on an analysis of
-the AST.
-Our hypothesis is that many novice-level exercises
-will have solutions that require certain structural
-{\em key features} in the code that we can detect automatically by
-comparing the AST of the student's code with the ASTs of known correct
-solutions.
-
-For example, Figures~\ref{fig:counta} and \ref{fig:countab} show two
-CloudCoder exercises that were assigned during the Winter 2013 term in
-CS-1 at 
-Small College \#1
-%Knox College.
-
-\begin{figure}[h]
-{\tt Write a static method called countA that takes a String as a
-parameter and returns the number of times that 'a' occurs in the String. }
-\caption{CountA:  An example CloudCoder exercise.}
-\label{fig:counta}
-\end{figure}
-
-
-\begin{figure}[h]
-{\tt Write a static method called countAB that takes a String as a
-parameter and returns the number of times that ab occurs (i.e. an 'a'
-immediately followed by 'b'). }
-\caption{CountAB: Another example CloudCoder exercise.}
-\label{fig:countab}
-\end{figure}
-
-First let us consider the {\tt CountA} exercise from
-Figure~\ref{fig:counta}.  As is typical in computer science, students have a lot of flexibility
-in how they solve this problem:  with a for loop or with a while loop, using the {\tt charAt()}
-method or the {\tt substring()} method or other String methods, and so on.  However, in
-practice, exercises are assigned in a context with other
-exercises, in-class examples, and course topics, which tends to limit
-the scope of possible student solutions, and to push students towards
-certain solutions and away from others.  For example, no student solved this
-exercise with a while loop, and all but one used {\tt charAt()}
-rather than other String operations.  In fact, most correct
-solutions looked something like Figure~\ref{fig:counta-solution}.
-
-\begin{figure}[h]
-\begin{lstlisting}
-public static int countAB(String str) {
-  int count=0;
-  for (int i=0; i<str.length();i++) {
-    if (str.charAt(i)=='a') {
-      count++;
-    }
-  }
-  return count;
-}
-\end{lstlisting}
-\caption{Typical solution for Exercise CountA depicted in Figure~\ref{fig:counta}.}
-\label{fig:counta-solution}
-\end{figure}
-
-
-\begin{figure}
-\includegraphics[width=90mm]{images/countA.pdf}
-\caption{Slightly simplified AST of the code in Figure~\ref{fig:counta-solution}}
-\label{fig:counta-ast}
-\end{figure}
-
-Compiling the method from Figure~\ref{fig:counta-solution} to an
-Abstract Syntax Tree (AST) produces a tree that looks something like
-Figure~\ref{fig:counta-ast} (the AST has been simplified slightly by
-collapsing nodes that are unimportant for this example).  We can identify
-several features of the AST that must be present to solve the
-exercise, such as a for loop, an if-statement inside the loop, and
-the use of a String method, typically {\tt charAt()}, to examine
-characters inside the loop.  We can also ensure that the components of
-the for loop are correct, i.e. that the loop counter starts at 0, that
-the loop goes up to the length of the String, and so on.  Assuming
-that student code compiles, all of these necessary features can be
-extracted from the AST. 
-
-Now let's consider the {\tt CountAB} exercise depicted in
-Figure~\ref{fig:countab}.  Again, there were many correct solutions;
-however, many correct solutions looked something like
-Figure~\ref{fig:countab-solution}.  
-
-\begin{figure}[h]
-\begin{lstlisting}
-public static int countAB(String str) {
-  int count=0;
-  for (int i=0; i<str.length()-1;i++) {
-    if (str.charAt(i)=='a' && 
-        str.charAt(i+1)=='b') {
-      count++;
-    }
-  }
-  return count;
-}
-\end{lstlisting}
-\caption{Typical solution for Exercise countAB depicted in Figure~\ref{fig:countab}.}
-\label{fig:countab-solution}
-\end{figure}
-
-Compiling the method in Figure~\ref{fig:countab-solution} into an
-abstract syntax tree (AST) produces a tree that looks like
-Figure~\ref{fig:countab-ast} (this result has been slightly simplified
-from the full output from the Eclipse JDT compiler).
-
-\begin{figure}[h]
-\includegraphics[width=90mm]{images/forloop-highlight.png}
-\caption{Slightly simplified AST of the code in Figure~\ref{fig:countab-solution}}
-\label{fig:countab-ast}
-\end{figure}
-
-Note the two circled sub-trees, or {\em features}, in the AST depicted
-in Figure~\ref{fig:countab-ast}.  Feature \#1, the {\em
-  length-1} feature, shows the loop iterating
-until the length of the String minus one.  The for loop requires a
-stop condition that is different
-than the loop stop condition used to solve the {\tt CountA} exercise from
-Figure~\ref{fig:counta}.  Crucially, once we know students are
-using a for loop to solve this exercise (which we can also
-extract from the AST), {\em we know exactly where in the AST to
-  look for the length-1 feature}.  If a submission has all the
-features except the {\em length-1} feature, we have a pretty good idea
-that the student hasn't figured out to change the stop condition of the
-for loop.  We could use the lack of features present in correct
-solutions to give us an idea of what things the student is missing.
-
-
-\subsection{Limits of Key Features Approach}
-
-Our approach of identifying ``key features'' has a number of
-weaknesses and limitations.  First, like other ITS hint-systems, it
-requires a reliable system for identifying the nearest previous successful
-submission to a student's current program state.  Work in this area is
-ongoing \cite{rivers-its2012,Jin:2012:PRA:2345840.2345889}.
-
-Second, features are based purely on the structure of the
-code, and are treated independently of one another, which is a
-simplification that throws out a lot of relevant contextual information.  For
-example, a student submission may have two for loops, one of which has
-an if statement nested inside it; our approach cannot determine which
-loop has the if statement inside it.  
-
-Third, we do not perform any data-flow analysis (at least not yet), so
-we cannot identify if particular values are stored in variables.
-
-Next, we require compilable code, which can be a problem for the many
-students who struggle to get their code to compile
-\cite{Denny:2012:SEE:2325296.2325318}.
-
-Finally, while we focused mainly on exercises that required for loops
-to solve, we also assigned a number of exercises that
-use if statements and no loops.  For these exercises, we can figure
-out when students don't have 
-enough structure, such as when they don't have nested if statements
-for an exercise where most people who solves the exercise used nested if statements.  However,
-we cannot yet easily determine when students have the wrong boundary
-conditions in an if statement.
-
-Much more work is needed in this area.  We hope that 
-CloudCoder can help out by providing a rich data set for post-hoc
-studies, as well as a platform for testing out a hint-system.
+%
+%\section{Future Work: Towards an Intelligent Tutoring System}
+%
+%One of the long-term goals for CloudCoder is to use the data to
+%develop an Intelligent Tutoring System for programming assignments.
+%A web-based programming ITS could be used to support high school
+%AP courses in school districts that may lack computer science
+%teachers, or to help improve introductory CS courses by reducing
+%student frustration.
+%
+%To develop an ITS, we need a large supply of exercises; we hope
+%CloudCoder's permissible licensing will help on this front.  We also
+%need to provide students with ``hints'' when they are stuck.  To
+%provide hints, we can either write the hints ourselves, which is
+%labor-intensive, or generate them automatically by mining them out of
+%the dataset of prior submissions.  Obviously this second approach is
+%a much preferred method of creating hints.  However, identifying hints
+%automatically means that we need to match a student's current program
+%state with the most similar program state we've seen previously, 
+%figure out what successful next step the previous student took, and
+%then summarize this information into a hint.  This is a very
+%challenging problem.
+%
+%There are currently two promising lines of research
+%trying to address the issue of identifying the most similar previous submissions.  Rivers and Koedinger \cite{rivers-its2012} have developed a
+%system that computes a {\em canonicalized} version of each submission
+%by compiling to an Abstract Syntax Tree (AST) and then applying a
+%series of compiler transformations.  This work is ongoing, but
+%preliminary results are encouraging.
+%On the other hand, Jin et. al. \cite{Jin:2012:PRA:2345840.2345889, jin-kdd2011} perform
+%an inter-procedural data flow analysis that tracks the values stored
+%in different variables in an effort to identify variables that are
+%used in the same way in each submission.  They also show promising preliminary
+%results for their approach.
+%
+%\subsection{Key Features:  Mining Hints from the AST}
+%
+%Our approach, which is very preliminary, ongoing research,  is also based on an analysis of
+%the AST.
+%Our hypothesis is that many novice-level exercises
+%will have solutions that require certain structural
+%{\em key features} in the code that we can detect automatically by
+%comparing the AST of the student's code with the ASTs of known correct
+%solutions.
+%
+%For example, Figures~\ref{fig:counta} and \ref{fig:countab} show two
+%CloudCoder exercises that were assigned during the Winter 2013 term in
+%CS-1 at 
+%Small College \#1
+%%Knox College.
+%
+%\begin{figure}[h]
+%{\tt Write a static method called countA that takes a String as a
+%parameter and returns the number of times that 'a' occurs in the String. }
+%\caption{CountA:  An example CloudCoder exercise.}
+%\label{fig:counta}
+%\end{figure}
+%
+%
+%\begin{figure}[h]
+%{\tt Write a static method called countAB that takes a String as a
+%parameter and returns the number of times that ab occurs (i.e. an 'a'
+%immediately followed by 'b'). }
+%\caption{CountAB: Another example CloudCoder exercise.}
+%\label{fig:countab}
+%\end{figure}
+%
+%First let us consider the {\tt CountA} exercise from
+%Figure~\ref{fig:counta}.  As is typical in computer science, students have a lot of flexibility
+%in how they solve this problem:  with a for loop or with a while loop, using the {\tt charAt()}
+%method or the {\tt substring()} method or other String methods, and so on.  However, in
+%practice, exercises are assigned in a context with other
+%exercises, in-class examples, and course topics, which tends to limit
+%the scope of possible student solutions, and to push students towards
+%certain solutions and away from others.  For example, no student solved this
+%exercise with a while loop, and all but one used {\tt charAt()}
+%rather than other String operations.  In fact, most correct
+%solutions looked something like Figure~\ref{fig:counta-solution}.
+%
+%\begin{figure}[h]
+%\begin{lstlisting}
+%public static int countAB(String str) {
+%  int count=0;
+%  for (int i=0; i<str.length();i++) {
+%    if (str.charAt(i)=='a') {
+%      count++;
+%    }
+%  }
+%  return count;
+%}
+%\end{lstlisting}
+%\caption{Typical solution for Exercise CountA depicted in Figure~\ref{fig:counta}.}
+%\label{fig:counta-solution}
+%\end{figure}
+%
+%
+%\begin{figure}
+%\includegraphics[width=90mm]{images/countA.pdf}
+%\caption{Slightly simplified AST of the code in Figure~\ref{fig:counta-solution}}
+%\label{fig:counta-ast}
+%\end{figure}
+%
+%Compiling the method from Figure~\ref{fig:counta-solution} to an
+%Abstract Syntax Tree (AST) produces a tree that looks something like
+%Figure~\ref{fig:counta-ast} (the AST has been simplified slightly by
+%collapsing nodes that are unimportant for this example).  We can identify
+%several features of the AST that must be present to solve the
+%exercise, such as a for loop, an if-statement inside the loop, and
+%the use of a String method, typically {\tt charAt()}, to examine
+%characters inside the loop.  We can also ensure that the components of
+%the for loop are correct, i.e. that the loop counter starts at 0, that
+%the loop goes up to the length of the String, and so on.  Assuming
+%that student code compiles, all of these necessary features can be
+%extracted from the AST. 
+%
+%Now let's consider the {\tt CountAB} exercise depicted in
+%Figure~\ref{fig:countab}.  Again, there were many correct solutions;
+%however, many correct solutions looked something like
+%Figure~\ref{fig:countab-solution}.  
+%
+%\begin{figure}[h]
+%\begin{lstlisting}
+%public static int countAB(String str) {
+%  int count=0;
+%  for (int i=0; i<str.length()-1;i++) {
+%    if (str.charAt(i)=='a' && 
+%        str.charAt(i+1)=='b') {
+%      count++;
+%    }
+%  }
+%  return count;
+%}
+%\end{lstlisting}
+%\caption{Typical solution for Exercise countAB depicted in Figure~\ref{fig:countab}.}
+%\label{fig:countab-solution}
+%\end{figure}
+%
+%Compiling the method in Figure~\ref{fig:countab-solution} into an
+%abstract syntax tree (AST) produces a tree that looks like
+%Figure~\ref{fig:countab-ast} (this result has been slightly simplified
+%from the full output from the Eclipse JDT compiler).
+%
+%\begin{figure}[h]
+%\includegraphics[width=90mm]{images/forloop-highlight}
+%\caption{Slightly simplified AST of the code in Figure~\ref{fig:countab-solution}}
+%\label{fig:countab-ast}
+%\end{figure}
+%
+%Note the two circled sub-trees, or {\em features}, in the AST depicted
+%in Figure~\ref{fig:countab-ast}.  Feature \#1, the {\em
+%  length-1} feature, shows the loop iterating
+%until the length of the String minus one.  The for loop requires a
+%stop condition that is different
+%than the loop stop condition used to solve the {\tt CountA} exercise from
+%Figure~\ref{fig:counta}.  Crucially, once we know students are
+%using a for loop to solve this exercise (which we can also
+%extract from the AST), {\em we know exactly where in the AST to
+%  look for the length-1 feature}.  If a submission has all the
+%features except the {\em length-1} feature, we have a pretty good idea
+%that the student hasn't figured out to change the stop condition of the
+%for loop.  We could use the lack of features present in correct
+%solutions to give us an idea of what things the student is missing.
+%
+%
+%\subsection{Limits of Key Features Approach}
+%
+%Our approach of identifying ``key features'' has a number of
+%weaknesses and limitations.  First, like other ITS hint-systems, it
+%requires a reliable system for identifying the nearest previous successful
+%submission to a student's current program state.  Work in this area is
+%ongoing \cite{rivers-its2012,Jin:2012:PRA:2345840.2345889}.
+%
+%Second, features are based purely on the structure of the
+%code, and are treated independently of one another, which is a
+%simplification that throws out a lot of relevant contextual information.  For
+%example, a student submission may have two for loops, one of which has
+%an if statement nested inside it; our approach cannot determine which
+%loop has the if statement inside it.  
+%
+%Third, we do not perform any data-flow analysis (at least not yet), so
+%we cannot identify if particular values are stored in variables.
+%
+%Next, we require compilable code, which can be a problem for the many
+%students who struggle to get their code to compile
+%\cite{Denny:2012:SEE:2325296.2325318}.
+%
+%Finally, while we focused mainly on exercises that required for loops
+%to solve, we also assigned a number of exercises that
+%use if statements and no loops.  For these exercises, we can figure
+%out when students don't have 
+%enough structure, such as when they don't have nested if statements
+%for an exercise where most people who solves the exercise used nested if statements.  However,
+%we cannot yet easily determine when students have the wrong boundary
+%conditions in an if statement.
+%
+%Much more work is needed in this area.  We hope that 
+%CloudCoder can help out by providing a rich data set for post-hoc
+%studies, as well as a platform for testing out a hint-system.
 
 
 \bibliographystyle{abbrv}
@@ -690,7 +736,6 @@ studies, as well as a platform for testing out a hint-system.
 %Appendix A
 \section{Acknowledgements}
 
-Anonymized.
-
+Our work has been supported by a SIGCSE Special Projects grant (May 2012).
 
 \end{document}
