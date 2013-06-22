@@ -190,7 +190,8 @@ the world needed another such system.
 %can write their own content, use and modify content contributed by
 %others, customize the system, and collect data for educational studies.
 
-Our primary motivation was {\em freedom}: we wanted a system where
+Our primary motivation in developing CloudCoder
+was {\em freedom}: we wanted a system where
 the software and exercises could be freely redistributed, and
 were not under the control of any central authority.  This motivation
 is not entirely philosophical: we felt that locking down either
@@ -216,12 +217,15 @@ support C and C++.
 
 
 \section{CloudCoder}
-We have designed CloudCoder to be an open platform for managing short
-programming exercises.  The CloudCoder platform has four design
-goals:  To be an open-platform for faculty to assign short programming
-exercises, to build a collection of redistributable programming
-exercises, to collect data about student behaviors as they solve
-exercises, and to explore ways of curating the collected data.
+%We have designed CloudCoder to be an open platform for managing short
+%programming exercises.  The CloudCoder platform has four design
+%goals:  To be an open-platform for faculty to assign short programming
+%exercises, to build a collection of redistributable programming
+%exercises, to collect data about student behaviors as they solve
+%exercises, and to explore ways of curating the collected data.
+
+In this section, we describe CloudCoder and discuss some initial experiences
+using it in introductory courses at several colleges and universities.
 
 % \begin{itemize}
 % \item {\em To provide a web-based platform for faculty to assign short
@@ -263,11 +267,12 @@ exercises, and to explore ways of curating the collected data.
 \subsection{An Open Platform}
 
 CloudCoder is an open platform for managing short programming
-exercises.  Each exercise can be solved with one method or one short
+exercises.
+Each exercise can be solved with one method or one short
 program, and could take only a few minutes to solve, or could require
 or an hour or two.  The system is not designed to support longer
 programming assignments, such as those found at the {\em Nifty
-Assignments} session at SIGCSE.
+Assignments} session at SIGCSE \cite{Parlante:2013:NA:2445196.2445356}.
 
 Figure~\ref{screenshot} shows a screenshot of a CloudCoder exercise.
 The editor is derived from the Ace editor \cite{ace}, and supports
@@ -275,8 +280,8 @@ syntax high-lighting for most programming languages, and
 auto-indentation.  
 A submit button runs the code against a series of
 test cases, and feedback is provided directly in the browser.
-CloudCoder captures anything the code prints to standard out or
-standard err to help students with debugging.
+CloudCoder captures the code's standard output and
+standard error streams to help students with debugging.
 
 \begin{table*}
 \centering

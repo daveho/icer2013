@@ -1,0 +1,5 @@
+solve rate
+average solve time (and min/median/max/stddev)
+avg pct attempted (min/med/max/stddev)
+number of exercises
+number of submissions
