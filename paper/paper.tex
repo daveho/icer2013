@@ -108,10 +108,10 @@ We also outline some research questions we hope to address in future work.
 \section{Introduction}
 
 Recent years have seen an explosion of online services for learning
-to program:  Udacity \cite{udacity}, Codecademy \cite{codeacademy},
-ProgZoo \cite{progzoo}, 
-Codingbat \cite{codingbat}, Coursera \cite{coursera}, Turingscraft
-\cite{turingscraft}, Problets \cite{Kumar:2005:GPA:1163405.1163408}, CS Circles \cite{Pritchard:2013:CCI:2445196.2445370} and
+to program:  Udacity\cite{udacity}, Codecademy\cite{codeacademy},
+ProgZoo\cite{progzoo}, 
+Codingbat\cite{codingbat}, Coursera\cite{coursera}, CodeLab\cite{turingscraft},
+Problets\cite{Kumar:2005:GPA:1163405.1163408}, CS Circles\cite{Pritchard:2013:CCI:2445196.2445370} and
 several others.  These systems are very powerful, and show great promise to
 improve introductory computer science.  Given all of these
 very good systems, one may ask why we thought
@@ -272,14 +272,15 @@ Each exercise can be solved with one method or one short
 program, and could take only a few minutes to solve, or could require
 or an hour or two.  The system is not designed to support longer
 programming assignments, such as those found at the {\em Nifty
-Assignments} session at SIGCSE \cite{Parlante:2013:NA:2445196.2445356}.
+Assignments} session at SIGCSE\cite{Parlante:2013:NA:2445196.2445356}.
 
 Figure~\ref{screenshot} shows a screenshot of a CloudCoder exercise.
-The editor is derived from the Ace editor \cite{ace}, and supports
-syntax high-lighting for most programming languages, and
-auto-indentation.  
-A submit button runs the code against a series of
-test cases, and feedback is provided directly in the browser.
+CloudCoder uses the Ace editor\cite{ace}, which supports
+syntax highlighting and automatic indentation for most programming languages.
+The submit button runs the code against a series of
+test cases. Once the test results are received, they are presented
+directly in the browser, giving the student feedback on the
+correctness of the submission.
 CloudCoder captures the code's standard output and
 standard error streams to help students with debugging.
 
@@ -370,7 +371,7 @@ We run Java code relatively securely under a Security Manager, and
 use Jython and JRuby to compile Python and Ruby to Java
 bytecode, which we also run in a Security-Managed sandbox.  We
 currently support C/C++ less securely, although 
-recent work by Malan \cite{Malan:2013:CSS:2445196.2445242} on a
+recent work by Malan\cite{Malan:2013:CSS:2445196.2445242} on a
 ``sandbox'' for running untrusted student code can be leveraged to improve our security.
 
 
@@ -383,13 +384,12 @@ insights into the difficulty level of different exercises, keep a
 record of common error patterns, and enable the development of
 innovative data analyses.
 
-
 One question is how to manage the data collected.  
 Recent work on web-scale data collection by the BlueJ team
 \cite{Utting:2012:WDG:2361276.2361278} lays out a number of important
 questions about programming data, such as who should have access to the data, and what
 mechanism should be used to access the data.  Sanders
-et. al. \cite{Sanders:2008:DSE:1404520.1404534} reviewed a number of
+et. al.\cite{Sanders:2008:DSE:1404520.1404534} reviewed a number of
 the challenges involved in sharing empirical education data.  
 
 An alternative repository for the type of data collected by CloudCoder
@@ -528,7 +528,7 @@ exercises in their courses.
 courses at a number of institutions converge towards an optimum?}
 This question is more philosophical, and is based on the observation that
 curricula and pedagogy vary widely between instructors and institutions,
-even for the ``same'' course \cite{Hertz:2010:CCM:1734263.1734335}.  We find ourselves wondering
+even for the ``same'' course\cite{Hertz:2010:CCM:1734263.1734335}.  We find ourselves wondering
 if more effective ways ways of sharing curriculum materials would lead
 to the best materials and ideas propagating widely, and if high-quality introductory
 programming courses could created as a ``mash-up'' of materials created by
@@ -558,7 +558,7 @@ Discuss.
 
 Jadud's pioneering early work on novice compilation behavior
 \cite{Jadud:2006:MTE:1151588.1151600}, along with follow-up work by
-others \cite{Norris:2008:CCQ:1384271.1384284} provides a starting point for
+others\cite{Norris:2008:CCQ:1384271.1384284} provides a starting point for
 work with program snapshots.
 
 Denny et. al. have studied novice syntax errors
@@ -567,7 +567,7 @@ CodeWrite is similar to CloudCoder, except that students create
 exercises and test cases for each other to solve, and are evaluated on
 the quality of their practice exercises.
 
-Lane et. al. describe Intention-Based Scoring (IBS) \cite{Lane:2005:ISA:1047344.1047471},
+Lane et. al. describe Intention-Based Scoring (IBS)\cite{Lane:2005:ISA:1047344.1047471},
 an approach to building an ITS for programming whereby human
 judges to score or code {\em charettes}, or assignments students work on in a
 timed, closed-lab environment.  IBS derives from prior work on
@@ -588,7 +588,7 @@ programming, directly into the text.  This sort of interactive text
 shows great promise for developing open, interactive courses.
 
 The BlueJ team presents a compelling case for web-scale data
-collection \cite{Utting:2012:WDG:2361276.2361278}.  Their system is
+collection\cite{Utting:2012:WDG:2361276.2361278}.  Their system is
 more ambitious than CloudCoder, but the data collected by CloudCoder
 should be complementary.
 
