@@ -391,17 +391,21 @@ in whitespace, capitalization, and formatting of output.
 
 CloudCoder currently supports exercises for C/C++, Java, Python and
 Ruby.  Building and testing takes place in a separate process which
-can be run on a separate machine for extra security, or on multiple
+can be run on a separate machine for extra security, and on multiple
 machines for scalability.
 
-We run Java code relatively securely under a Security Manager, and 
-use Jython\cite{jython} and JRuby\cite{jruby} to compile Python and Ruby to Java
-bytecode, which we also run in a Security-Managed sandbox.  We
-currently support C/C++ less securely, although 
+CloudCoder executes Java, Python, and Ruby code relatively securely under
+a Java Security Manager.
+(CloudCoder uses Jython\cite{jython} and JRuby\cite{jruby}
+to execute Python and Ruby submissions, allowing us to take advantage of
+the Java Security Manager for those languages.)
+CloudCoder's execution of C/C++ code is somewhat less secure, although 
 we hope to take advantage of a better sandboxing mechanism
 in the near future, possibly based on the work of
 David Malan\cite{Malan:2013:CSS:2445196.2445242} for Harvard's
-online CS50 course.
+online CS50 course.  However, because thus far the only users of
+CloudCoder have been instructors and students in introductory courses,
+the weak sandboxing has not been a significant concern.
 
 
 \subsection{Data Collection and Curation}
