@@ -305,61 +305,87 @@ University of Auckland & Programming for Engineers & C & 30\\
 CloudCoder is available under the GNU Affero General Public License\cite{AGPL}.
 Binary distributions are available through our website (\url{http://cloudcoder.org}),
 and the code is available on Github:
-
-\vspace*{3mm} 
+\begin{quote}
 \url{https://github.com/cloudcoderdotorg/CloudCoder}
+\end{quote}
 
 % The editor window 
 
 \subsection{Permissively-Licensed Exercises}
 
-Writing good homework exercises is difficult and
-time-consuming, and even the best textbooks are limited in the
-number and quality of practice exercises they can provide, to say
-nothing of a textbook's inability to provide timely feedback to
-students.
-Sharing exercises between faculty members is a much
-more efficient way to increase the number and quality of exercises at
-our disposal.
+%Writing good homework exercises is difficult and
+%time-consuming, and even the best textbooks are limited in the
+%number and quality of practice exercises they can provide, to say
+%nothing of a textbook's inability to provide timely feedback to
+%students.
+%Sharing exercises between faculty members is a much
+%more efficient way to increase the number and quality of exercises at
+%our disposal.
+Writing a good programming exercise is challenging.
+The instructions must be clear and concise.  The tests must
+include easy inputs as well as more difficult corner cases.
+If possible, tests should be constructed in a way that
+allows a partially-correct solution to pass at least some
+tests.  And, a good exercise should focus on a specific concept
+or language construct.
 
-Faculty who use CloudCoder can write their own exercises using our in-browser
-authoring tools, or can import exercises written by other faculty
-from a central repository at:
+%Faculty who use CloudCoder can write their own exercises using our in-browser
+%authoring tools, or can import exercises written by other faculty
+%from a central repository at:
 
-\vspace*{3mm} 
+Although instructors who use CloudCoder
+could choose to write from scratch all of the exercises they assign,
+our goal is to build a repository of good exercises
+written by many users at many institutions, made available under
+permissive licenses such as Creative Commons BY-SA\cite{CC-BY-SA}.
+Once published to the repository, an exercise is available
+for anyone who wishes to use it.
+The exercise repository is available at the URL
+\begin{quote}
 \url{https://cloudcoder.org/repo}
-\vspace*{3mm} 
-
-Currently we have over 50 Java and 60 C/C++ exercises authored by 5
-different users.  By default,
-any new exercises written by faculty will be shared to the 
-central repository under a permissive Creative Commons license (BY-SA)
-that allows redistribution provided that the author is credited and
-redistribution is under the same license.  
-(Note that the repository shows the exercise description, but not the
-test cases or the solution, so an unscrupulous student cannot dig through the
-repository for solutions.  Importing exercises requires an account at
-the repository, which can be used to discourage this sort of
-undesirable behavior.).
+\end{quote}
+%
+At the time of writing (June 2013) the exercise repository contains about 50 Java and
+60 C/C++ exercises authored by 5 different users.  As more institutions
+start to use CloudCoder, we expect the number of exercises to increase.
+%By default,
+%any new exercises written by faculty will be shared to the 
+%central repository under a permissive Creative Commons license (BY-SA)
+%that allows redistribution provided that the author is credited and
+%redistribution is under the same license.  
+%(Note that the repository shows the exercise description, but not the
+%test cases or the solution, so an unscrupulous student cannot dig through the
+%repository for solutions.  Importing exercises requires an account at
+%the repository, which can be used to discourage this sort of
+%undesirable behavior.)
 
 CloudCoder supports two types of exercises:  {\em method} or {\em function-based}
-exercises, and {\em whole-program} exercises.  Function based exercises look
-a lot like Codingbat exercises:  Students are given a description of
-what the method should do, and a couple of example input/output pairs
-similar to a unit test.  Writing a new function-based exercise
-requires a description, some ``starter code'' (typically the method
+exercises, and {\em whole-program} exercises.  Function based exercises are
+very similar to CodingBat exercises: the student is required to write
+a function/method that takes some number of parameter values,
+does a computation, and returns a result value.
+Students are given a description of
+what the method should do, and a couple of example inputs with
+expected results.  Writing a new function-based exercise
+requires a description, some skeleton code (typically the method
 header, although exercises can provide as much or as little code as
-desired), and a series of inputs and their corresponding outputs.
-Test-cases can be marked as ``secret'' so that students don't see their
-outputs to discourage students from writing a special case to
+desired), and a series of inputs and their corresponding expected results.
+Test cases can be marked as ``secret'' so that students don't see their
+outputs, to discourage students from writing a special case to
 recognize each input.
 
-On the other hand, whole-program exercises
-have a description, but read inputs from
-standard-in and write to standard-out.  CloudCoder uses a
-simplified regular expression language to check student outputs for
-correctness.
-
+Whole-program exercises read input data from
+the standard input stream, perform a computation, and write output to the standard output stream.
+Expected output is checked by matching a regular expression against the
+program's standard output stream.
+Whole-program exercises are useful for two main reasons.  First,
+they can be assigned early in the course, before functions/methods
+have been introduced.  Second, they give the exercise author a
+way of checking expected output that is more powerful than matching a return
+value against a literal.  The main disadvantage is devising a
+regular expression that is precise enough to distinguish correct output
+from incorrect output, but forgiving enough to account for minor deviations
+in whitespace, capitalization, and formatting of output.
 
 \subsection{Building and Testing Submissions}
 
@@ -369,11 +395,13 @@ can be run on a separate machine for extra security, or on multiple
 machines for scalability.
 
 We run Java code relatively securely under a Security Manager, and 
-use Jython and JRuby to compile Python and Ruby to Java
+use Jython\cite{jython} and JRuby\cite{jruby} to compile Python and Ruby to Java
 bytecode, which we also run in a Security-Managed sandbox.  We
 currently support C/C++ less securely, although 
-recent work by Malan\cite{Malan:2013:CSS:2445196.2445242} on a
-``sandbox'' for running untrusted student code can be leveraged to improve our security.
+we hope to take advantage of a better sandboxing mechanism
+in the near future, possibly based on the work of
+David Malan\cite{Malan:2013:CSS:2445196.2445242} for Harvard's
+online CS50 course.
 
 
 \subsection{Data Collection and Curation}
