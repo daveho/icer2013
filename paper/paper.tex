@@ -208,8 +208,7 @@ Another motivation was a desire to collect data on students' work
 on programming exercises as a way to study how students learn to program.
 For example, CloudCoder captures a fine-grained edit history of each
 student's work on each exercise.  Because the system is open source,
-we (and other researchers) can easily add other kinds of data collection
-to the system.
+we (and other researchers) can easily add support for other kinds of data collection.
 
 Finally, we wanted a system that supported a wide range of programming
 languages.  For example, relatively few programming exercise systems
@@ -410,19 +409,20 @@ the weak sandboxing has not been a significant concern.
 
 \subsection{Data Collection and Curation}
 
-CloudCoder logs keystrokes in the online editor window, and 
-stores all submissions and test outcomes in a databases.
+As the student works on an exercises, CloudCoder logs all of the
+student's edits, and stores all submissions and test outcomes.
 We hope that the combination of exercises and data will give faculty
+and researchers
 insights into the difficulty level of different exercises, keep a
 record of common error patterns, and enable the development of
 innovative data analyses.
 
 One question is how to manage the data collected.  
-Recent work on web-scale data collection by the BlueJ team
-\cite{Utting:2012:WDG:2361276.2361278} lays out a number of important
+Recent work on web-scale data collection by the
+BlueJ team\cite{Utting:2012:WDG:2361276.2361278} lays out a number of important
 questions about programming data, such as who should have access to the data, and what
 mechanism should be used to access the data.  Sanders
-et. al.\cite{Sanders:2008:DSE:1404520.1404534} reviewed a number of
+et.\ al.\cite{Sanders:2008:DSE:1404520.1404534} reviewed a number of
 the challenges involved in sharing empirical education data.  
 
 An alternative repository for the type of data collected by CloudCoder
