@@ -2,6 +2,8 @@
 
 \usepackage{listings}
 \usepackage{hyperref}
+\usepackage{booktabs}
+
 \renewcommand{\topfraction}{0.9}
 \renewcommand{\textfraction}{0.1}
 \renewcommand{\floatpagefraction}{0.84}
@@ -287,15 +289,15 @@ standard error streams to help students with debugging.
 
 \begin{table*}
 \centering
-\begin{tabular}{| l | l | l | l |}
-\hline
+\begin{tabular}{llll}
+\toprule
 Institution & Course & Language & Enrollment\\
-\hline
+\midrule
 Canisius College & CS-1 & C/C++ & 30\\
 York College & CS-1 & C/C++ & 120\\
 Knox College \#1 & CS-1 & Java & 23\\
 University of Auckland & Programming for Engineers & C & 30\\
-\hline
+\bottomrule
 \end{tabular}
 \caption{CloudCoder pilot studies.}
 \label{tab:courses}
