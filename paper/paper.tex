@@ -459,20 +459,36 @@ a long-term project that is in its infancy.
 %Standard storage formats, visualization tools, standard analyses.
 
 \subsection{Hosting CloudCoder}
+
 We recognize that ease of installation is a critical factor for
-adoption of a new pedagogical
-technology for busy
+adoption of a new pedagogical technology for busy
 faculty who may only have a few minutes to evaluate a new system.  We
 are committed to making the installation process as simple and painless as 
 possible.
 
-Thus far each institution that has adopted CloudCoder has
-provided a Linux server that we configured for them.  This has made
-adoption very easy, but is unlikely to scale up as we acquire more
-users.  We have asked Amazon for Amazon Web Services credits to
-provide CloudCoder ``in the cloud'' to adopting institutions, and we
-hope to add support for Google App Engine this summer.  Ease of
-adoption is critical for CloudCoder.
+Setting up a CloudCoder instance requires two Linux servers: one to
+host the web application and database, and another to build and
+test the student submissions.  The installation process is reasonably well
+automated, and can be completed by someone comfortable with
+running Linux commands on remote servers in about an hour.
+We have received one report of a user successfully installing CloudCoder
+without assistance.  However, self-hosting is still a significant
+barrier to adoption, and we are investigating ways to make it
+easier for potential users to adopt CloudCoder.
+
+To date, each institution that has adopted CloudCoder in production has
+provided Linux servers that we configured for them.  This has made
+adoption very easy, but is not a model that is likely to scale well
+to larger numbers of institutions.  We recently received a grant
+from Amazon of credits for Amazon Web Services\cite{aws},
+which we plan to use to directly host CloudCoder for interested
+institutions.  We are also investigating easier ways for
+users to self-host, such as enabling CloudCoder to run on
+hosting services such as Google App Engine\cite{gae}.
+%  We have asked Amazon for Amazon Web Services credits to
+%provide CloudCoder ``in the cloud'' to adopting institutions, and we
+%hope to add support for Google App Engine this summer.  Ease of
+%adoption is critical for CloudCoder.
 
 \subsection{Pilot Studies}
 
