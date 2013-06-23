@@ -71,9 +71,9 @@ letting students write code directly in a web browser, click the
 ``submit'' button, and receive immediate feedback.  Unlike other
 systems, which tend to be closed, or commercial, or both, CloudCoder
 is a completely open platform.  The code for the system is
-open-source, and exercises written for CloudCoder are shared to a
-central repository under a permissive Creative Commons license
-(BY-SA).  Finally, CloudCoder collects detailed data that faculty can use for
+open-source, and exercises written for CloudCoder may be shared to a
+central repository under permissive licenses such as Creative Commons BY-SA.
+Finally, CloudCoder collects detailed data that faculty can use for
 educational research.
 
 In this paper, we report on successful pilot studies of CloudCoder at several
@@ -114,9 +114,9 @@ to program:  Udacity\cite{udacity}, Codecademy\cite{codeacademy},
 ProgZoo\cite{progzoo}, 
 Codingbat\cite{codingbat}, Coursera\cite{coursera}, CodeLab\cite{turingscraft},
 Problets\cite{Kumar:2005:GPA:1163405.1163408}, CS Circles\cite{Pritchard:2013:CCI:2445196.2445370} and
-several others.  These systems are very powerful, and show great promise to
-improve introductory computer science.  Given all of these
-very good systems, one may ask why we thought
+many others.  These systems are powerful, and show great promise to
+improve introductory computer science.  Given the existence of all of these
+systems, one may ask why we thought
 %it a good career move
 %to build yet another system.
 the world needed another such system.
@@ -202,7 +202,7 @@ limiting the potential impact of the system.
 As we will discuss in Section~\ref{sec:questions}, we think that there
 are some interesting research questions that can be addressed
 best through the existence of a ``free like air'' programming
-exercise system: for example, we are very interested in finding out
+exercise system: for example, we are interested in finding out
 whether exercises can be reused effectively in different courses
 at different institutions.
 
@@ -278,11 +278,12 @@ Instead, they are intended to be used as self-test exercises,
 practice problems, in-class lab activities, quiz problems, etc.
 
 Figure~\ref{screenshot} shows a screenshot of a CloudCoder exercise.
-CloudCoder uses the Ace editor\cite{ace}, which supports
+CloudCoder uses Ace\cite{ace}, an open source web-based
+programmer's editor, which supports
 syntax highlighting and automatic indentation for most programming languages.
 The submit button runs the code against a series of
 test cases. Once the test results are received, they are presented
-directly in the browser, giving the student feedback on the
+directly in the browser, giving the student immediate feedback on the
 correctness of the submission.
 CloudCoder captures the code's standard output and
 standard error streams to help students with debugging.
@@ -360,19 +361,19 @@ start to use CloudCoder, we expect the number of exercises to increase.
 %the repository, which can be used to discourage this sort of
 %undesirable behavior.)
 
-CloudCoder supports two types of exercises:  {\em method} or {\em function-based}
-exercises, and {\em whole-program} exercises.  Function based exercises are
+CloudCoder supports two types of exercises:  {\em function-based}
+exercises and {\em whole-program} exercises.  Function-based exercises are
 very similar to CodingBat exercises: the student is required to write
-a function/method that takes some number of parameter values,
+a function (or method, depending on the programming language) that takes some number of parameter values,
 does a computation, and returns a result value.
 Students are given a description of
-what the method should do, and a couple of example inputs with
+what the function should do, and a couple of example inputs with
 expected results.  Writing a new function-based exercise
 requires a description, some skeleton code (typically the method
 header, although exercises can provide as much or as little code as
 desired), and a series of inputs and their corresponding expected results.
 Test cases can be marked as ``secret'' so that students don't see their
-outputs, to discourage students from writing a special case to
+inputs or expected results, to discourage students from writing a special case to
 recognize each input.
 
 Whole-program exercises read input data from
@@ -383,9 +384,10 @@ Whole-program exercises are useful for two main reasons.  First,
 they can be assigned early in the course, before functions/methods
 have been introduced.  Second, they give the exercise author a
 way of checking expected output that is more powerful than matching a return
-value against a literal.  The main disadvantage is devising a
+value against a literal.  The main disadvantage is
+the difficulty of devising a
 regular expression that is precise enough to distinguish correct output
-from incorrect output, but forgiving enough to account for minor deviations
+from incorrect output, but forgiving enough to allow minor deviations
 in whitespace, capitalization, and formatting of output.
 
 \subsection{Building and Testing Submissions}
@@ -401,10 +403,11 @@ a Java Security Manager.
 to execute Python and Ruby submissions, allowing us to take advantage of
 the Java Security Manager for those languages.)
 CloudCoder's execution of C/C++ code is somewhat less secure, although 
-we hope to take advantage of a better sandboxing mechanism
-in the near future, possibly based on the work of
-David Malan\cite{Malan:2013:CSS:2445196.2445242} for Harvard's
-online CS50 course.  However, because thus far the only users of
+in the near future
+we hope to take advantage of a better sandboxing mechanism,
+possibly based on the work of
+David Malan for Harvard's online CS50 course\cite{Malan:2013:CSS:2445196.2445242}.
+However, because thus far the only users of
 CloudCoder have been instructors and students,
 the weak sandboxing has not been a significant concern.
 
@@ -413,13 +416,19 @@ the weak sandboxing has not been a significant concern.
 
 As the student works on an exercises, CloudCoder logs all of the
 student's edits, and stores all submissions and test outcomes.
-We hope that the combination of exercises and data will give faculty
-and researchers
-insights into the difficulty level of different exercises, keep a
-record of common error patterns, and enable the development of
-innovative data analyses.
+Code edits are fine-grained---close to the level of keystroke
+logging.
+We hope that the data collected by CloudCoder will provide
+useful insights to faculty and researchers about
+exercises (their difficulty, which knowledge components they develop)
+and how students work on them (success patterns, error patterns, etc.)
+% combination of exercises and data will give faculty
+%and researchers
+%insights into the difficulty level of different exercises, keep a
+%record of common error patterns, and enable the development of
+%innovative data analyses.
 
-One question is how to manage the data collected.  
+One issue is how to manage the data collected.  
 Recent work on web-scale data collection by the
 BlueJ team\cite{Utting:2012:WDG:2361276.2361278} lays out a number of important
 questions about programming data, such as who should have access to the data, and what
@@ -440,7 +449,7 @@ Anonymized data that has been cleared by the proper Institutional
 Review Boards is contributed to the Datashop, which
 makes the data available to other researchers under whatever
 restrictions were put in place by the overseeing IRBs.  The Datashop also
-provides a suite of analysis and visualization tools for better making
+provides a suite of analysis and visualization tools for making
 sense of the ITS data.
 
 We are working with members of the Datashop to establish standards for
@@ -465,8 +474,13 @@ a long-term project that is in its infancy.
 We recognize that ease of installation is a critical factor for
 adoption of a new pedagogical technology for busy
 faculty who may only have a few minutes to evaluate a new system.  We
-are committed to making the installation process as simple and painless as 
-possible.
+are committed to making the process
+of getting up and running as simple as possible.
+
+For evaluation purposes, we run a demo server
+(\url{https://cloudcoder.org/demo}) on which any instructor may request
+an account.  This provides an easy way for instructors to evaluate
+CloudCoder without installing the software.
 
 Setting up a CloudCoder instance requires two Linux servers: one to
 host the web application and database, and another to build and
@@ -482,10 +496,10 @@ To date, each institution that has adopted CloudCoder in production has
 provided Linux servers that we configured for them.  This has made
 adoption very easy, but is not a model that is likely to scale well
 to larger numbers of institutions.  We recently received a grant
-from Amazon of credits for Amazon Web Services\cite{aws},
+of credits for Amazon Web Services\cite{aws} from Amazon,
 which we plan to use to directly host CloudCoder for interested
 institutions.  We are also investigating easier ways for
-users to self-host, such as enabling CloudCoder to run on
+users to self-host, such as enabling CloudCoder to run on application
 hosting services such as Google App Engine\cite{gae}.
 %  We have asked Amazon for Amazon Web Services credits to
 %provide CloudCoder ``in the cloud'' to adopting institutions, and we
@@ -573,7 +587,7 @@ to accompany readings and video lectures, in-class assessment (possibly
 in the context of peer instruction), extra practice for students who
 are struggling.  We would like to have specific, evidence-based recommendations
 that we can give to instructors who are considering using programming
-exercises in their courses.
+exercises in their courses to guide them in using exercises in an effective manner.
 
 {\bf Given an effective mechanism for sharing curriculum materials, could
 courses at a number of institutions converge towards an optimum?}
