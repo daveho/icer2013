@@ -294,9 +294,9 @@ standard error streams to help students with debugging.
 \toprule
 Institution & Course & Language & Enrollment\\
 \midrule
-Canisius College & CS-1 & C++ & 30\\
-York College & CS-1 & C & 120\\
-Knox College & CS-1 & Java & 23\\
+Canisius College & CS1 & C++ & 30\\
+York College & CS1 & C & 122\\
+Knox College & CS1 & Java & 23\\
 University of Auckland & Programming for Engineers & C & 30\\
 \bottomrule
 \end{tabular}
@@ -509,23 +509,28 @@ hosting services such as Google App Engine\cite{gae}.
 
 We piloted CloudCoder at several institutions during the 2012-2013
 academic year.  Table~\ref{tab:courses} shows a breakdown of the
-courses.  We tried to use CloudCoder at Auckland in Fall 2012 for a
-course with 700 students, but the free-tier of Amazon EC2 did not
-scale up well enough, so we only recorded partial data.  We have made
-significant improvements since then and plan to deploy CloudCoder for
+courses.  We also tried to use CloudCoder at the University of Auckland in Fall 2012 for a
+course with 700 students, but we encountered performance issues
+which prevented a full deployment.  We are working on scalability
+improvements, and we plan to deploy CloudCoder for
 the same large course in Fall 2013.
 
-
-In the Winter 2013 term at Knox College, students taking CS-1 used {\tt CloudCoder}
-%
-% TODO: \cite{Hovemeyer:2013:CBC:2445196.2445451}.  
-% 
+In the Winter 2013 term at Knox College, students taking CS1 used {\tt CloudCoder}.
 We collected over 6,000 submissions
-for 32 exercises by 23 students.  We expect to have a much larger
-dataset from 120 students at 
-York College 
-once the Spring 2013 semester ends.  Our analysis of these datasets is
-very preliminary at this point, but work is ongoing.
+for 32 exercises by 23 students. [TODO: what else?]
+
+In the Spring 2013 term at York College, we used CloudCoder in a CS1
+class, taught in C, with 122 students.  There were more than 56,000
+submissions for 68 exercises.  Because using CloudCoder was the
+only change in pedagogy compared to previous offerings of the course,
+we plan to analyze this data to see if we can find evidence that
+the exercises resulted in improved outcomes.
+
+%We expect to have a much larger
+%dataset from 120 students at 
+%York College 
+%once the Spring 2013 semester ends.  Our analysis of these datasets is
+%very preliminary at this point, but work is ongoing.
 
 
 \section{Questions}\label{sec:questions}
@@ -703,7 +708,7 @@ should be complementary.
 %
 %For example, Figures~\ref{fig:counta} and \ref{fig:countab} show two
 %CloudCoder exercises that were assigned during the Winter 2013 term in
-%CS-1 at 
+%CS1 at 
 %Small College \#1
 %%Knox College.
 %
