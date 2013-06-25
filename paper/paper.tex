@@ -112,7 +112,7 @@ and outline research questions we hope to address in future work.
 Recent years have seen an explosion of online services for learning
 to program:  Udacity\cite{udacity}, Codecademy\cite{codeacademy},
 ProgZoo\cite{progzoo}, 
-Codingbat\cite{codingbat}, Coursera\cite{coursera}, CodeLab\cite{turingscraft},
+CodingBat\cite{codingbat}, Coursera\cite{coursera}, CodeLab\cite{turingscraft},
 Problets\cite{Kumar:2005:GPA:1163405.1163408}, CS Circles\cite{Pritchard:2013:CCI:2445196.2445370} and
 many others.  These systems are powerful, and show great promise to
 improve introductory computer science.  Given the existence of all of these
@@ -192,7 +192,8 @@ the world needed another such system.
 %can write their own content, use and modify content contributed by
 %others, customize the system, and collect data for educational studies.
 
-Our primary motivation in developing CloudCoder
+Our primary motivation in developing CloudCoder,
+a new programming exercise system,
 was {\em freedom}: we wanted a system where
 the software and exercises could be freely redistributed, and
 were not under the control of any central authority.  This motivation
@@ -259,7 +260,7 @@ using it in introductory courses at several colleges and universities.
 
 \begin{figure*}
 \centering
-\includegraphics[width=5.5in]{images/screenshot4}
+\includegraphics[width=5.25in]{images/screenshot4}
 \caption{Screenshot of the main view in CloudCoder}
 \label{screenshot}
 \end{figure*}
@@ -277,7 +278,8 @@ Assignments} session at SIGCSE\cite{Parlante:2013:NA:2445196.2445356}.
 Instead, they are intended to be used as self-test exercises,
 practice problems, in-class lab activities, quiz problems, etc.
 
-Figure~\ref{screenshot} shows a screenshot of a CloudCoder exercise.
+Figure~\ref{screenshot} shows a screenshot of the user interface
+students use to work on a CloudCoder exercise.
 CloudCoder uses Ace\cite{ace}, an open source web-based
 programmer's editor, which supports
 syntax highlighting and automatic indentation for most programming languages.
@@ -304,9 +306,9 @@ University of Auckland & Programming for Engineers & C & 30\\
 \label{tab:courses}
 \end{table*}
 
-CloudCoder is available under the GNU Affero General Public License\cite{AGPL}.
+CloudCoder's source code is available under the GNU Affero General Public License\cite{AGPL}.
 Binary distributions are available through our website (\url{http://cloudcoder.org}),
-and the code is available on Github:
+and the code is available on GitHub:
 \begin{quote}
 \url{https://github.com/cloudcoderdotorg/CloudCoder}
 \end{quote}
@@ -364,7 +366,7 @@ start to use CloudCoder, we expect the number of exercises to increase.
 CloudCoder supports two types of exercises:  {\em function-based}
 exercises and {\em whole-program} exercises.  Function-based exercises are
 very similar to CodingBat exercises: the student is required to write
-a function (or method, depending on the programming language) that takes some number of parameter values,
+a function (or method, depending on the programming language) that takes some parameter values,
 does a computation, and returns a result value.
 Students are given a description of
 what the function should do, and a couple of example inputs with
@@ -388,7 +390,7 @@ value against a literal.  The main disadvantage is
 the difficulty of devising a
 regular expression that is precise enough to distinguish correct output
 from incorrect output, but forgiving enough to allow minor deviations
-in whitespace, capitalization, and formatting of output.
+in white space, capitalization, and formatting of output.
 
 \subsection{Building and Testing Submissions}
 
@@ -495,7 +497,7 @@ To date, each institution that has adopted CloudCoder in production has
 provided Linux servers that we configured for them.  This has made
 adoption very easy, but is not a model that is likely to scale well
 to larger numbers of institutions.  We recently received a grant
-of credits for Amazon Web Services\cite{aws} from Amazon,
+of credits for Amazon Web Services\cite{aws},
 which we plan to use to host CloudCoder directly for interested
 institutions.  We are also investigating easier ways for
 users to self-host. One possibility is enabling CloudCoder to run on application
@@ -515,7 +517,7 @@ which prevented a full deployment.  We are working on scalability
 improvements, and we plan to deploy CloudCoder for
 the same large course in Fall 2013.
 
-In the Winter 2013 term at Knox College, students taking CS1 used {\tt CloudCoder}.
+In the Winter 2013 term at Knox College, students taking CS1 used CloudCoder.
 We collected over 6,000 submissions
 for 32 exercises by 23 students.
 
@@ -619,9 +621,27 @@ encourage students to make a serious attempt at solving them?
 
 {\bf What is the right balance between short programming exercises and
   longer ``nifty'' assignments?}
-Discuss.
+There has been a lot of work in the CS Education community developing
+interesting and innovative introductory level programming assignments,
+such as the wonderful examples presented each year at the ``Nifty Assignments'' panel at
+SIGCSE.  Most introductory courses require at least a few
+longer nifty-style programming assignments, in addition to shorter
+programming homework assignments.  What is the proper balance between longer
+nifty-style assignments and shorter, more focused programming exercises?  Is 
+solving shorter programming exercises a pre-condition, or threshold skill, for
+completing assignments?  
 
-{\bf What can we do to encourage students to use their time effectively outside of class?}
+{\bf Is the feedback provided by synchronous grading more effective
+  than feedback from asynchronous grading?}
+Faculty or Teaching Assistants who manually grade student programming
+assignments can give detailed and customized feedback to
+students, at the cost of some latency between the time the student
+submits the assignment and the time they receive their grade and the
+feedback.  Anecdotally, many faculty complain that students do not
+seem to pay much attention to this feedback, possibly because those
+points (marks) have already been lost and cannot be recovered.
+While automated systems cannot give feedback that is as detailed as manual
+grading, they can give feedback very quickly.  
 
 \section{Related Work}
 
@@ -860,14 +880,15 @@ should be complementary.
 %CloudCoder can help out by providing a rich data set for post-hoc
 %studies, as well as a platform for testing out a hint-system.
 
-\section{Acknowledgements}
+\section{Acknowledgments}
 
 We would like to thank the anonymous reviewers for helpful suggestions
 for improving the paper.
 
 This work was supported by a SIGCSE Special Projects grant (May 2012),
-a York College Summer Research Fellowship (Summer 2013), [TODO: Knox College
-grant], and [TODO: Amazon grant].
+a York College Summer Research Fellowship (Summer 2013), an award from
+the Paul K.\ Richter and Evalyn E.\ Cook Richter Memorial Trusts at Knox
+College, and an Amazon Web Services Teaching Grant.
 
 \bibliographystyle{abbrv}
 \bibliography{paper}  
