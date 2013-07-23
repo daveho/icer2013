@@ -4,11 +4,11 @@
 	pdflatex $*
 	pdflatex $*
 
+all : paper.pdf talk.pdf
+
 paper.pdf : paper.tex paper.bib Makefile images/forloop-highlight.pdf images/countA.pdf
 
-#makeimages: images/*
-#	sips -s format png images/forloop-highlight.pdf  --out images/forloop-highlight.png
-#	sips -s format png images/countA.pdf  --out images/countA.png
+talk.pdf : talk.tex images/KnoxLogo.pdf images/YCPLogo.pdf
 
 clean :
 	rm -f paper.pdf *.aux *.log *.bbl *.blg
