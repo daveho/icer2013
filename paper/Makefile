@@ -8,6 +8,7 @@ paper.pdf : paper.tex paper.bib Makefile images/forloop-highlight.pdf images/cou
 
 talk.pdf : talk.tex images/KnoxLogo.pdf images/YCPLogo.pdf
 	pdflatex talk
+	pdflatex talk
 
 clean :
 	rm -f paper.pdf talk.pdf *.aux *.log *.bbl *.blg
