@@ -4,7 +4,8 @@
 
 \begin{document}
 
-\title[ICER 2013]{An Open System for Managing Short Programming Exercises}
+\title[ICER 2013]{An Open System for\\
+Managing Short Programming Exercises}
 \author[Papancea et.\ al.]{Andrei Papancea, Jaime Spacco, and David Hovemeyer${}^{\dagger}$}
 \institute[Knox, YCP]{
 \begin{minipage}[t]{1.1in}
@@ -51,6 +52,7 @@ of Pennsylvania}
   \item Short programming exercises:
   \begin{itemize}
     \item Students write or complete a short (5-15 line) program
+    \item Interface is typically web-based
     \item Correctness is judged with a series of test cases
     \item Student receives immediate feedback about results of tests
   \end{itemize}
@@ -70,17 +72,110 @@ of Pennsylvania}
 \begin{itemize}
   \item There are lots of programming exercise systems already:
   \begin{itemize}
-    \item Free: CodingBat, Codecademy
+    \item Free\footnote{As in beer}: CodingBat, Codecademy
     \item Commercial: CodeLab (TuringsCraft), MyProgrammingLab (Pearson)
     \item {\em Do we really need another one?}
   \end{itemize}
   \item We did not know of one that
   \begin{itemize}
-    \item Was open source
     \item {\em Encouraged users to create and share exercises}
+    \item Was open source
+    \item Collected rich data about how students work
     \item Supported a range of languages (including C/C++)
   \end{itemize}
+  \item We created a new system, called CloudCoder, to fill this niche
+    \begin{itemize}
+    \item \url{http://cloudcoder.org}
+    \end{itemize}
 \end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%% Freedom matters %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Freedom matters}
+
+\begin{itemize}
+  \item The impact of a pedagogical technique or curriculum material
+        is a factor of how many students are exposed to it
+  \item Systematically eliminating barriers to adoption maximizes impact
+  \begin{itemize}
+    \item Requiring payment is a barrier to adoption
+    \item Restrictive licenses are a barrier to adoption
+    \item Control by a central authority is a barrier to adoption
+  \end{itemize}
+  \item Ideal situation: resources are available to anyone at any time for any purpose
+  \item Case in point...
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%% Email #1 %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Email \#1}
+
+\begin{center}
+\includegraphics[width=4.5in]{images/email1}
+\end{center}
+
+[I (DH) created an account and replied with the username and password.]
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%% Email #2 %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Email \#2}
+
+\begin{center}
+\includegraphics[width=4.5in]{images/email2}
+\end{center}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%% Our philosophy %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Our philosophy}
+
+\begin{itemize}
+  \item Make programming exercises written by many people available
+        for whatever uses are appropriate
+  \begin{itemize}
+    \item Use in courses
+    \item Use outside of courses? [i.e., the emails discussed previously]
+  \end{itemize}
+  \item Research how exercises are shared
+  \begin{itemize}
+    \item Find ways to make sharing more effective
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%% CloudCoder %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{CloudCoder}
+
+\begin{itemize}
+  \item Open source (AGPL v3)
+  \item Supports exercises in Java, Python, Ruby, and C/C++
+  \item Collects fine-grained edit sequence of each student's work
+  \item Repository of freely-redistributable (CC-BY-SA) exercises:
+        \url{https://cloudcoder.org/repo}
+  \item Requires two Linux servers to host (one network-facing)
+    \begin{itemize}
+    \item Relatively easy to install
+    \item Known to support 60+ concurrent users with modest hardware
+    \item Load testing experiments successful with 350+ concurrent users
+          on higher-end hardware
+    \item Cost to host per course-semester: perhaps \$1-\$3 per student
+          (e.g., using Amazon EC2)
+    \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%% CloudCoder screenshot %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{CloudCoder screenshot}
+
+\begin{center}
+\vskip -.25in
+\includegraphics[width=4.5in]{images/screenshot4}
+\end{center}
 
 \end{frame}
 

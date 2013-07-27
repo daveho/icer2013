@@ -9,3 +9,5 @@
 /*.snm
 /*.toc
 /talk.pdf
+*.bak
+*.swp
