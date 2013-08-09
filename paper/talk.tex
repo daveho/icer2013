@@ -32,17 +32,17 @@ August 12, 2013}
   \titlepage
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%% Outline %%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{Outline}
-
-\begin{itemize}
-  \item Background
-  \item Description of CloudCoder
-  \item Preliminary Experiences
-  \item Questions
-\end{itemize}
-
-\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%% Outline %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{Outline}
+%
+%\begin{itemize}
+%  \item Background
+%  \item Description of CloudCoder
+%  \item Preliminary Experiences
+%  \item Questions
+%\end{itemize}
+%
+%\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%% Background %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{Background}
@@ -50,31 +50,19 @@ August 12, 2013}
 \begin{itemize}
   \item Many students struggle in introductory programming courses
   \item Mastery of basic concepts and techniques is essential for success
-  \item Short programming exercises ({\it {\` a} la} CodingBat):
+  \item Short programming exercises ({\` a} la CodingBat):
   \begin{itemize}
-    \item Students write or complete a short (5-15 line) program
-    \item Interface is typically web-based
+    \item Web-based UI
+    \item Students write or complete a short (5-15 line) function or program
     \item Correctness is judged with a series of test cases
     \item Student receives immediate feedback
   \end{itemize}
-  \item Exercises are useful for:
+  \item Useful for:
   \begin{itemize}
     \item Skills development
     \item Self-tests to accompany reading
     \item Extra practice
   \end{itemize}
-\end{itemize}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%% Short Exercises %%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}{Short Exercises}
-
-\begin{itemize}
-  \item Analogy: learning programming vs.\ learning to play a musical instrument
-  \item Larger assignment (like SIGCSE {\em Nifty Assignments}) :: Recital piece
-  \item Short exercise :: Playing a scale, an {\' e}tude
 \end{itemize}
 
 \end{frame}
@@ -85,13 +73,13 @@ August 12, 2013}
 \begin{itemize}
   \item There are lots of programming exercise systems already:
   \begin{itemize}
-    \item Free\footnote{As in beer}: CodingBat, Codecademy
+    \item Free: CodingBat, PracticeIt!, Codecademy
     \item Commercial: CodeLab (TuringsCraft), MyProgrammingLab (Pearson)
     \item {\em Do we really need another one?}
   \end{itemize}
   \item We did not know of one that
   \begin{itemize}
-    \item {\em Encouraged users to create and share exercises}
+    \item Encouraged users to create and share {\bf freely-redistributable} exercises
     \item Supported a range of languages (including C/C++)
     \item Was open source
     \item Collected rich data about how students work
@@ -104,49 +92,61 @@ August 12, 2013}
 
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%% CloudCoder %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{CloudCoder}
+
+\begin{itemize}
+  \item Open source (AGPL v3)
+  \item Supports exercises in Java, Python, Ruby, and C/C++
+  \item Web-based user interface
+    \begin{itemize}
+    \item 100\% HTML/CSS/JavaScript, no plugin required
+    \end{itemize}
+  \item Repository of freely-redistributable (CC-BY-SA) exercises:
+        \url{https://cloudcoder.org/repo}
+    \begin{itemize}
+    \item We encourage users to contribute, but do not require them to
+    \end{itemize}
+  \item Collects fine-grained edit sequence of each student's work
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%% CloudCoder screenshot %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{CloudCoder screenshot}
+
+\begin{center}
+\vskip -.15in
+\includegraphics[width=4.5in]{images/screenshot5}
+\end{center}
+
+\end{frame}
+
 %%%%%%%%%%%%%%%%%%%%%%%% Freedom matters %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{Freedom matters}
 
 \begin{itemize}
-  \item The impact of a pedagogical technique or curriculum resource
-        depends on how many students can access it
-  \item Systematically eliminating barriers to adoption and distribution maximizes impact
+  %\item The impact of a pedagogical technique or curriculum resource
+  %      depends on how many students can access it
+  \item Goal: make programming exercises available to {\bf anyone} at {\bf any time} for {\bf any purpose}
   \begin{itemize}
-    \item Requiring payment is a barrier
-    \item Restrictive licenses are a barrier
-    \item Control by a central authority is a barrier
+    \item No payment
+    \item No restrictive licenses
+    \item No central control
   \end{itemize}
-  \item Ideal situation: resources are available to {\bf anyone} at {\bf any time} for {\bf any purpose}
-%  \item Case in point...
-\end{itemize}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%% Our philosophy %%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{Our philosophy}
-
-\begin{itemize}
-  \item Make programming exercises written by many people available
-        for whatever uses are appropriate
+  \item Exercises can be used in many contexts:
   \begin{itemize}
-    \item Our need: exercises to assign in the context of a course
-    \item Related work: PCRS (Zingaro et.\ al., SIGCSE 2013), in-class
-          exercises to support peer instruction
+    \item Our need: assign exercises in the context of a course
+    \item In-class exercises to support peer instruction
+          (PCRS, Zingaro et.\ al., SIGCSE 2013)
       \begin{itemize}
       \item Summer 2013: PCRS can import exercises from the CloudCoder exercise repository!
       \end{itemize}
-    \item We can imagine lots of other uses: for example, Codecademy-style
-          self-learning
-  \end{itemize}
-  \item Make the {\em sharing} of exercises a subject of research
-  \begin{itemize}
-    \item What kinds of exercises are most easily reused?
-    \item How can exercises be classified and organized?
+    \item Codecademy-style self-learning?
   \end{itemize}
 \end{itemize}
 
 \end{frame}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%% Email #1 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\begin{frame}{Email \#1}
@@ -168,33 +168,6 @@ August 12, 2013}
 %
 %\end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%% CloudCoder %%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{CloudCoder}
-
-\begin{itemize}
-  \item Open source (AGPL v3)
-  \item Web-based user interface
-    \begin{itemize}
-    \item 100\% HTML/CSS/JavaScript, no plugin required
-    \end{itemize}
-  \item Supports exercises in Java, Python, Ruby, and C/C++
-  \item Collects fine-grained edit sequence of each student's work
-  \item Repository of freely-redistributable (CC-BY-SA) exercises:
-        \url{https://cloudcoder.org/repo}
-\end{itemize}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%% CloudCoder screenshot %%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{CloudCoder screenshot}
-
-\begin{center}
-\vskip -.15in
-\includegraphics[width=4.5in]{images/screenshot5}
-\end{center}
-
-\end{frame}
-
 %%%%%%%%%%%%%%%%%%%%%%%% CloudCoder screenshot %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{Hosting CloudCoder}
 
@@ -203,11 +176,11 @@ August 12, 2013}
     \begin{itemize}
     \item Relatively easy to install
     \item Known to work: 60+ concurrent users with modest hardware
-    \item Load testing: with 700+ concurrent users
+    \item Load testing: 700+ concurrent users
           on moderate server hardware
       \begin{itemize}
       \item Compiling and testing submissions can require significant
-            CPU resources, but is easy to scale up by adding more
+            CPU resources, but are easy to scale up by adding more
             build servers
       \end{itemize}
     \item Cost to host per course-semester: perhaps \$1-\$3 per student
@@ -262,7 +235,7 @@ August 12, 2013}
     \end{itemize}
   \item What experiments should we do to measure effect on outcomes?
   \end{itemize}
-\item How should we most effectively incorporate short exercises into a course?
+\item How to incorporate short exercises into a course most effectively?
   \begin{itemize}
   \item How do we know what exercises should be assigned?
   \item In what order should the exercises be assigned?

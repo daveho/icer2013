@@ -1,0 +1,83 @@
+Title slide
+===========
+
+Hello, my name is David Hovemeyer from York College of Pennsylvania,
+and I'm going to talk to you about CloudCoder, a project I have
+been working on with Andrei Papancea and Jaime Spacco from
+Knox College.
+
+Background
+==========
+
+We are all aware that many students struggle in introductory programming
+courses.  Students who don't master basic syntax, concepts, and
+techniques will find it very difficult to complete larger programming
+tasks.  For this reason, it is useful to have a way to allow
+students practice basic programming techniques.
+
+Short programming exercises, as popularized by systems such as CodingBat,
+can be useful for developing these basic skills.  These exercises
+require the student to write a short function or program, and automatically
+judge correctness by running the student's submission against a
+series of test cases.  Students get immediate feedback on the
+correctness of their submissions.
+
+These exercises can be useful for skills development, as self-test
+exercises to accompany readings, and extra practice.
+
+Why another system?
+===================
+
+Although many systems for administering short programming exercises
+have been developed, we did not find an existing system that had
+all of the features we wanted.  We wanted an open source system
+that encouraged the development and sharing of freely-redistributable
+exercises.  We wanted support for a range of languages, including
+C and C++.  We also wanted a system that could support data collection
+enabling research into how students learn to program.
+
+We created a new system called CloudCoder to address these needs.
+Its website is "cloudcoder.org".
+
+CloudCoder
+==========
+
+CloudCoder is open source software, supports exercises in Java, Python,
+Ruby, and C/C++.  Its user interface is web-based.  The most important
+feature of the system is a repository allowing users to share
+exercises under permissive licenses such as CreativeCommons.
+We encourage users to contribute the exercises they create,
+but do not require them to.
+
+CloudCoder screenshot
+=====================
+
+Here is a screenshot of the user interface: students see a description
+of the exercise, edit code, submit, and see test results.
+
+Freedom matters
+===============
+
+We believe that giving users the right to freely use and redistribute
+the software and the exercises confers some important benefits
+and encourages adoption.
+
+Not requiring payment is an obvious benefit.
+
+Making the software open source makes the system "future proof".
+Many of the current free systems are hosted by a single controlling
+organization, leaving open the possibility of "pulling the plug"
+on the system and stranding users who have come to rely on the system.
+
+Allowing exercises to be freely redistributed conveys a number
+of benefits.  The obvious one is allowing the creation of
+a repository of exercises, reducing the burden on instructors
+to create exercises from scratch.  Another benefit is allowing
+exercises to be used in new contexts, such as peer instruction
+and self-learning.
+
+Hosting CloudCoder
+==================
+
+Yeah.
+
