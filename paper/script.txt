@@ -79,5 +79,24 @@ and self-learning.
 Hosting CloudCoder
 ==================
 
-Yeah.
+CloudCoder requires two Linux servers to host and the web application
+has relatively modest hardware requirements.  Installation is relatively
+easy, and we have had one report of a user installing CloudCoder
+from scratch.
 
+We recently received a grant from Amazon Web Services that will allow
+us to host CloudCoder for a small number of courses: please see us
+if you are interested in having us host CloudCoder for your course.
+
+Experiences
+===========
+
+We have used CloudCoder successfully in several courses with up to
+120 students.  Initial feedback from instructors and students has been
+positive.  One thing we have learned is that writing good exercises
+is challenging, underscoring the need for a community-supported
+exercise repository.
+
+In the coming academic term we will be hosting CloudCoder for a
+course with 700 students at the University of Auckland, which we
+hope will prove that CloudCoder can scale to larger courses.
