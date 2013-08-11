@@ -100,3 +100,26 @@ exercise repository.
 In the coming academic term we will be hosting CloudCoder for a
 course with 700 students at the University of Auckland, which we
 hope will prove that CloudCoder can scale to larger courses.
+
+Questions
+=========
+
+Our project is at an early stage, so we would value feedback
+from the ICER community.
+
+First, we would like to know how many of you use short exercises
+in your introductory courses.  If you do use them, do you use one
+of the existing systems?  If not, would you be interested in
+trying to use them?
+
+We are obviously interested in whether or not short exercises can
+be helpful for improving outcomes, and would be interested in
+suggestions for what kind of experiments we could do to answer
+this question.
+
+We are also interested in finding ways to most effectively incorporate
+exercises into a course.  In particular, would are interested in
+when exercises should be used, in what order, and what is an
+appropriate balance between short exercises and longer assignments.
+
+Thank you.
